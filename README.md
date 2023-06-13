@@ -31,7 +31,7 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
 <br>
 
 ## **SUMÁRIO**
-1. [Introdução](01_introducao)
+1. [Introdução](01_introducao/README.md)
    1. [Raciocínio Lógico](https://github.com/2023-PROG-IFC/01_introducao/tree/master/01_01_raciocionio_logico)
    2. [Desafios - I](https://github.com/2023-PROG-IFC/01_introducao/tree/master/01_02_desafios)
    3. [Desafios - II](https://github.com/2023-PROG-IFC/01_introducao/tree/master/01_03_desafios)
