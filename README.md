@@ -17,7 +17,7 @@ Este material está em constante desenvolvimento. Portanto, caso tenha algumas s
 _Antes de começar, saiba que além deste material elaborado para o primeiro ano do Curso Técnico em Informática (1INFOs), também há um material elaborado para o segundo ano do curso (2INFOs) e também para o terceiro ano (3INFOs)._
 
 ### **<u>Trilha do Curso</u>**
-**[Programação I](https://github.com/2023-PROG-IFC/Programacao) :arrow_right: [Professor Fábio Longo de Moura](https://github.com/ldmfabio)**
+**[Programação I](https://github.com/ldmfabio/Programacao) :arrow_right: [Professor Fábio Longo de Moura](https://github.com/ldmfabio)**
 
 > _Lógica de Programação usando JavaScript_
 
@@ -31,7 +31,7 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
 <br>
 
 ## **SUMÁRIO**
-1. [Introdução](https://github.com/2023-PROG-IFC/01_introducao/)
+1. [Introdução](01_introducao)
    1. [Raciocínio Lógico](https://github.com/2023-PROG-IFC/01_introducao/tree/master/01_01_raciocionio_logico)
    2. [Desafios - I](https://github.com/2023-PROG-IFC/01_introducao/tree/master/01_02_desafios)
    3. [Desafios - II](https://github.com/2023-PROG-IFC/01_introducao/tree/master/01_03_desafios)
