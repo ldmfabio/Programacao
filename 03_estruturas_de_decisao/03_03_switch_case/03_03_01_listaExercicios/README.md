@@ -62,4 +62,4 @@ De acordo com as respostas, informe qual a estação do ano correspondente.
 <br>
 <br>
 
-# [**Clique aqui para acessar o novo conteúdo**](https://github.com/2023-PROG-IFC/04_arrays)
+# [**Clique aqui para acessar o novo conteúdo**](../../../04_arrays/README.md)
