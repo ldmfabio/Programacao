@@ -4,11 +4,9 @@
 <br>
 
 **DECISÃO**
-```
- - Ato ou efeito de decidir; resolução, deliberação, determinação.
-
- - Resolver (uma questão) por meio de um julgamento ou de uma escolha.
- ```
+> _Ato ou efeito de decidir; resolução, deliberação, determinação._
+>
+> _Resolver (uma questão) por meio de um julgamento ou de uma escolha._
 
 Diversas são as situações em que nos deparamos com um ponto em que uma decisão é necessária, desde o momento em que acordamos até a hora em que vamos dormir (inclusive o horário de acordar e dormir são decisões prévias que tomamos para que possamos estabelecer uma rotina).
 
