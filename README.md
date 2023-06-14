@@ -1,4 +1,5 @@
 # **Programação I**
+
 ## **Olá!**
 
 Este é o repositório que contém o material de apoio e listas de exercício da disciplina de Programação I do [Curso Técnico em Informática](https://informatica.araquari.ifc.edu.br/) do [IFC-Araquari](http://araquari.ifc.edu.br).
@@ -8,6 +9,7 @@ Este material foi elaborado baseando-se no livro [Lógica de Programação e Alg
 Este material está em constante desenvolvimento. Portanto, caso tenha algumas sugestões de melhoria e/ou correções, por favor entre em contato comigo por [e-mail ](mailto:fabio.moura@ifc.edu.br). Se preferir, faça uma solicitação decontribuição ao projeto.
 
 **Como contribuir com um projeto privado:**
+
 - Criar um fork do projeto;
 - Clonar o fork;
 - Criar uma branch para a sua contribuição;
@@ -17,20 +19,25 @@ Este material está em constante desenvolvimento. Portanto, caso tenha algumas s
 _Antes de começar, saiba que além deste material elaborado para o primeiro ano do Curso Técnico em Informática (1INFOs), também há um material elaborado para o segundo ano do curso (2INFOs) e também para o terceiro ano (3INFOs)._
 
 ### **<u>Trilha do Curso</u>**
+
 **[Programação I](https://github.com/ldmfabio/Programacao) :arrow_right: [Professor Fábio Longo de Moura](https://github.com/ldmfabio)**
 
 > _Lógica de Programação usando JavaScript_
 
 **[Desenvolvimento Web II](https://eduardo-da-silva.github.io/aula-desenvolvimento-web/) :arrow_right: [Professor: Eduardo da Silva](https://github.com/eduardo-da-silva)**
+
 > _Desenvolvimento front-end usando framework Vue_
 
 **[Desenvolvimento Web III](https://github.com/marrcandre/django-drf-tutorial) :arrow_right: [Professor: Marco André Lopes Mendes](https://github.com/marrcandre/)**
+
 > _Desenvolvimento back-end usando framework Django_
 
-### ***Bons estudos durante a sua jornada!***
+### **_Bons estudos durante a sua jornada!_**
+
 <br>
 
 ## **SUMÁRIO**
+
 1. [Introdução](01_introducao/README.md)
    1. [Raciocínio Lógico](01_introducao/01_01_raciocionio_logico/README.md)
    2. [Desafios - I](01_introducao/01_02_desafios/README.md)
@@ -55,7 +62,7 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
    3. [Switch...Case](03_estruturas_de_decisao/03_03_switch_case/README.md)
    # Item 4 em diante está em Construção
 4. [Arrays](04_arrays/README.md)
-5. [Estruturas de Repetição](https://github.com/2023-PROG-IFC/04_arrays)
+5. [Estruturas de Repetição](05_estruturas_de_repeticao/README.md)
    1. [For...Of]()
    2. [For com Variável de Controle]()
    3. [Do While]()
