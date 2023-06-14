@@ -52,4 +52,4 @@ Criaremos um arquivo novo, chamado *index.html*.
 
 Começaremos a explicar o conteúdo dos arquivos HTML e JS na próxima seção.
 
-# [**Clique aqui para explorar o conteúdo de arquivos HTML e JS!**](02_01_arquivo_html_js/)
+# [**Clique aqui para explorar o conteúdo de arquivos HTML e JS!**](02_01_arquivo_html_js/README.md)

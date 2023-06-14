@@ -76,4 +76,4 @@ A primeira linha retornará _true_, pois o valor que está sendo validado é um 
 
 ## **Pronto! Agora vamos colocar em prática!**
 
-### [<u>**Lista de Exercícios!**</u>](./02_05_01_listaExercicios/README.md)
+### [<u>**Lista de Exercícios!**</u>](02_05_01_listaExercicios/README.md)

@@ -94,4 +94,3 @@ ___Traduzindo___ a _Tabela Verdade_ para valores booleanos, resultantes das cond
 Vamos então agora colocar em prática o conteúdo abordado até aqui. Como sugestão, fica a lista de exercícios com 18 problemas para serem resolvidos, [**que está disponível clicando aqui**](../03_01_02_listaExercicios/README.md).
 
 #
-

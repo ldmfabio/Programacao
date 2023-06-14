@@ -53,4 +53,4 @@ Considere que uma revendedora paga a seus funcionários um salário fixo por mê
 
 # Finalizada a lista de exercícios? PARABÉNS!
 
-## Agora você já pode avançar para a próxima etapa: [**<u>03 - Estruturas de Decisão</u>**](https://github.com/2023-PROG-IFC/03_estruturas_de_decisao/blob/master/README.md)
+## Agora você já pode avançar para a próxima etapa: [**<u>03 - Estruturas de Decisão</u>**](../../../03_estruturas_de_decisao/README.md)

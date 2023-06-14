@@ -112,4 +112,4 @@ Vejam aqui uma nova forma de saída de dados, para apresentar ao usuário a mens
 
 Note que, até então, não houve qualquer interação do usuário com a aplicação. Apenas apresentamos dados, informações, mensagens determinadas por nós mesmos. Isso se deve a não termos ainda estudado de que forma o usuário interagirá com a aplicação, porém é a nossa próxima etapa, por meio da entrada de dados.
 
-### [<u>**Próxima Etapa: Entrada de Dados!**</u>](./../02_03_entrada_de_dados/README.md)
+### [<u>**Próxima Etapa: Entrada de Dados!**</u>](../02_03_entrada_de_dados/README.md)

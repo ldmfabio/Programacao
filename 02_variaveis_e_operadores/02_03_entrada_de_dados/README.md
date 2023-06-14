@@ -166,8 +166,8 @@ Agora que já sabemos como interagir com o usuário, vamos treinar um pouco?
 
 Clique no link abaixo para acessar uma lista de exercícios super simples, que te possibilitarão treinar os recursos abordados até agora.
 
-### [<u>**Lista de Exercícios: Treinando Entrada e Saída de Dados**</u>](./02_03_01_listaExercicios/README.md)
+### [<u>**Lista de Exercícios: Treinando Entrada e Saída de Dados**</u>](02_03_01_listaExercicios/README.md)
 
 ## Ou, caso queira continuar aprendendo...
 
-### [<u>**Próxima Etapa: Comentários!**</u>](./../02_04_comentarios/README.md)
+### [<u>**Próxima Etapa: Comentários!**</u>](../02_04_comentarios/README.md)

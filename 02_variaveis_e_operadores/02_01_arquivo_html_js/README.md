@@ -42,4 +42,4 @@ Partiremos então para a próxima etapa dos estudos de Lógica de Programação.
 
 # 
 
-### [<u>**Próxima Etapa: Saída de Dados!**</u>](./../02_02_saida_de_dados/README.md)
+### [<u>**Próxima Etapa: Saída de Dados!**</u>](../02_02_saida_de_dados/README.md)

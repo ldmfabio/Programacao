@@ -37,4 +37,4 @@ Peça para o usuário informar o seu nome e o seu sobrenome. Após, o programa d
 
 ## ***Let's work!***
 
-### [<u>**Próxima Etapa: Comentários!**</u>](./../../02_04_comentarios/README.md)
+### [<u>**Próxima Etapa: Comentários!**</u>](../../02_04_comentarios/README.md)

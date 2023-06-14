@@ -1,12 +1,12 @@
-### [**Voltar para o Início**](https://github.com/2023-PROG-IFC/Programacao)
+### [**Voltar para o Início**](../../README.md)
 
-#### [**Página Anterior**](../01_04_transicao/)
+#### [**Página Anterior**](../01_04_transicao/README.md)
 
 # Hello, JavaScript!
 
 ***Requisitos para estar aqui:***
 - Ter lido sobre Lógica de Programação.
-- Caso não tenha lido ainda, [**CLIQUE AQUI**.](../01_04_transicao/)
+- Caso não tenha lido ainda, [**CLIQUE AQUI**.](../01_04_transicao/README.md)
 
 A primeira versão da Linguagem JavaScript foi lançada em 1995, pela Netscape Communications Corporation, junto com a Sun Microsystems. Alguns browsers possuíam suporte para a Linguagem JavaScript, outros browsers não. Há 25 anos havia, na verdade, uma *guerra dos browsers*, e o browser que predominava era o Netscape Navigator.
 
@@ -42,4 +42,4 @@ Alguns exemplos de aplicações simples em JavaScript que podemos desenvolver s�
 
 Agora, vamos certificar os seus conhecimentos básicos em Lógica de Programação.
 
-### [**<u>Clique aqui para ir até a apresentação da certificação do curso mantido pela GrassHopper</u>**](../01_06_certificacao_fundamentos/)
+### [**<u>Clique aqui para ir até a apresentação da certificação do curso mantido pela GrassHopper</u>**](../01_06_certificacao_fundamentos/README.md)

@@ -1,6 +1,6 @@
-### [**Voltar para o Início**](https://github.com/2023-PROG-IFC/Programacao)
+### [**Voltar para o Início**](../../README.md)
 
-#### [**Página Anterior**](https://github.com/2023-PROG-IFC/01_introducao/)
+#### [**Página Anterior**](../README.md)
 
 # **RACIOCÍNIO LÓGICO**
 
@@ -25,4 +25,4 @@ Para resolver problemas de computador, precisamos organizar os pensamentos e def
 
 Para treinar o seu raciocínio lógico com alguns problemas simples, clique abaixo para ir resolver alguns desafios de lógica <u>*próxima página*</u>.
 
-#### [<u>***Desafios de Lógica***</u>](../01_02_desafios/)
+#### [<u>***Desafios de Lógica***</u>](../01_02_desafios/README.md)

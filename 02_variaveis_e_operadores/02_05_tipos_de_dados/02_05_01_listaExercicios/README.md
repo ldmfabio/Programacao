@@ -47,4 +47,4 @@ Peça para o usuário informar a quantidade de ovos que foram comprados e aprese
 ### **<u>[Problema 15: Latas de tinta](15_latasTinta.html)</u>**
 Peça para o usuário informar quantos metros quadrados deseja pintar. Apresente quantas latas de tinta são necessárias, considerando que um litro de tinta cobrirá 3 metros, e cada lata possui 18 litros de tinta.
 
-# [**Terminou a lista toda? Conferiu novamente se está tudo certo? Então clique aqui para fazer uma lista complementar :-)**](./../02_05_02_listaExercicios_2/README.md)
+# [**Terminou a lista toda? Conferiu novamente se está tudo certo? Então clique aqui para fazer uma lista complementar :-)**](../02_05_02_listaExercicios_2/README.md)

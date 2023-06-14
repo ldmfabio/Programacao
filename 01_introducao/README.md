@@ -1,4 +1,4 @@
-### [**Voltar para o Início**](https://github.com/2023-PROG-IFC/Programacao)
+### [**Voltar para o Início**](../README.md)
 
 # <u>**1INFOs - PROGRAMAÇÃO**</u>
 Este repositório disponibilizará o conteúdo introdutório à disciplina de **Programação I** do <u>Curso Técnico em Informática para Internet</u> do [IFC Campus Araquari](https://araquari.ifc.edu.br/).
@@ -50,4 +50,4 @@ As etapas acima correspondem com outro algoritmo, composto por etapas que possib
 
 Para já, começaremos com algo menos complexo, mas que servirá para pensar "_em etapas_", exercitando o raciocínio lógico.
 
-# [**Clique aqui para começar a jornada!**](01_01_raciocionio_logico/)
+# [**Clique aqui para começar a jornada!**](01_01_raciocionio_logico/README.md)

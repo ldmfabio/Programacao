@@ -1,12 +1,12 @@
-### [**Voltar para o Início**](https://github.com/2023-PROG-IFC/Programacao)
+### [**Voltar para o Início**](../../README.md)
 
-#### [**Página Anterior**](../01_02_desafios/)
+#### [**Página Anterior**](../01_02_desafios/README.md)
 
 # Treinando o Raciocínio Lógico
 
 ***Requisitos para estar aqui:***
 - Ter resolvido os dois testes de raciocínio lógico anteriores!
-- Caso não tenha resolvido ainda, [**CLIQUE AQUI**.](../01_02_desafios/)
+- Caso não tenha resolvido ainda, [**CLIQUE AQUI**.](../01_02_desafios/README.md)
 
 <u>*Caso você já sinta confiante, poderá pular esta etapa e migrar para a [Lógica de Programação](#transição-para-a-lógica-de-programação).*</u>
 
@@ -36,4 +36,4 @@ Este desafio é sensacional! Sugiro, inclusive, realizá-lo em dupla!
 
 Agora que você já treinou um pouco o raciocínio lógico, vamos migrar para a *Lógica de Programação*. O link para migrar para a próxima fase está disponível aqui :arrow_down:
 
-### [**<u>Clique aqui para migrar para a Lógica de Programação</u>**](../01_04_transicao/)
+### [**<u>Clique aqui para migrar para a Lógica de Programação</u>**](../01_04_transicao/README.md)

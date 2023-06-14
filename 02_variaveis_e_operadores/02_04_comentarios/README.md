@@ -63,4 +63,4 @@ Acompanhe os exemplos abaixo, porém desconsidere a complexidade do código.
 
 Viram a utilidade dos _comentários_? Espero que tenham compreendido e adotem essa prática para quando considerarem necessário, seja para deixar alguma anotação sobre o que desenvolveram e precisam lembrar depois, sobre onde pararam de programar e o que ainda está pendente ou, quem sabe, pensando em futuras manutenções no programa que estão desenvolvendo.
 
-### [<u>**Próxima Etapa: Tipos de Dados!**</u>](./../02_05_tipos_de_dados/README.md)
+### [<u>**Próxima Etapa: Tipos de Dados!**</u>](../02_05_tipos_de_dados/README.md)
