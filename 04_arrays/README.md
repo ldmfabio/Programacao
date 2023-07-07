@@ -37,7 +37,7 @@ O conteúdo retornado será, portanto, **"Banana"**.
 | :--- | :--- |
 | push() | Adiciona um elemento ao final do array. |
 | pop() | Remove o último elemento ao final do array. |
-| shift() | Remove o primeiro elemento do vetor e desloca os seguintes para cima. |
+| shift() | Remove o primeiro elemento do array e desloca os seguintes para cima. |
 | unshift() | Adiciona um elemento no início do array e desloca os elementos para uma posição abaixo. |
 
 Portanto, o código para adicionar um item (tanto ao fim - *push()* - quanto no início - *unshift()* - do array), será, respectivamente:
