@@ -83,3 +83,9 @@ Peça para o usuário digitar UMA palavra.
 Peça para o usuário digitar a letra que deseja encontrar na palavra que acabou de digitar.
 
 Apresente para o usuário se a LETRA que ele quer procurar existe ou não na palavra digitada e qual a primeira posição da LETRA na PALAVRA.
+
+#
+
+## Terminou toda a lista? Então... #partiu!
+
+# [**Clique aqui para acessar o próximo conteúdo**](../../05_estruturas_de_repeticao/README.md)
