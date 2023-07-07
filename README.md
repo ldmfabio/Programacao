@@ -60,8 +60,8 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
       3. [Lista de Exercícios - Complementar](03_estruturas_de_decisao/03_01_if_else/03_01_02_listaExercicios_2/README.md)
    2. [Operador Ternário](03_estruturas_de_decisao/03_02_operador_ternario/README.md)
    3. [Switch...Case](03_estruturas_de_decisao/03_03_switch_case/README.md)
-   # Item 4 em diante está em Construção
 4. [Arrays](04_arrays/README.md)
+   # Item 5 em diante está em Construção
 5. [Estruturas de Repetição](05_estruturas_de_repeticao/README.md)
    1. [For...Of]()
    2. [For com Variável de Controle]()
