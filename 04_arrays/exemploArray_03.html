@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+    //PROBLEMA
+    //Peça para o usuário inserir uma posição do alfabeto (em número) para que o programa busque qual a letra correspondente.
+    const alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+    let posicaoAlfabeto = parseInt(prompt("Insira a posição do alfabeto que deseja lembrar a letra:").trim());
+
+    let letra;
+    if (posicaoAlfabeto > 0 && posicaoAlfabeto < 27) {
+        posicaoAlfabeto = posicaoAlfabeto - 1;
+        letra = "A letra é " + alfabeto[posicaoAlfabeto] + "!";
+    } else {
+        letra = "Posição do alfabeto inválida!";
+    }
+
+    document.write(letra);
+</script>
