@@ -1,2 +1,3 @@
-# 04_estruturas_de_repeticao
+# 06_estruturas_de_repeticao
+
 Programação - Estruturas de Repetição
