@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+    const numeroPrimo = parseInt(prompt(`Qual número deseja validar se é número primo?`));
+    let divisivel = 0;
+    for (let contador = 1; contador <= numeroPrimo; contador++) {
+        if (numeroPrimo % contador === 0) {
+            divisivel = divisivel + 1;
+            document.write(`${numeroPrimo} dividido por ${contador} sobra zero! SOMA UM!</br>`)
+        }
+        else {
+            document.write(`${numeroPrimo} dividido por ${contador} não sobra zero! NÃO SOMA NADA!</br>`);
+        }
+    }
+    if (divisivel === 2) {
+        document.write(`O número ${numeroPrimo} é um número primo, pois só divide por um e por ele mesmo!`);
+    }
+    else {
+        document.write(`O número ${numeroPrimo} não é um número primo, pois é dividido por ${divisivel} números!`);
+    }
+</script>
