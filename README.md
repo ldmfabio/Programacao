@@ -62,10 +62,10 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
    3. [Switch...Case](03_estruturas_de_decisao/03_03_switch_case/README.md)
 4. [Arrays](04_arrays/README.md)
    1. [Lista de Exercícios](04_arrays/listaExercicios_01/README.md)
-   # Item 5 em diante está em Construção
 5. [Estruturas de Repetição](05_estruturas_de_repeticao/README.md)
-   1. [For...Of]()
-   2. [For com Variável de Controle]()
+   1. [For...Of](05_estruturas_de_repeticao/01-forOf/README.md)
+   2. [For com Variável de Controle](05_estruturas_de_repeticao/02-forControle/README.md)
+   # Item 5.3 em diante está em Construção
    3. [Do While]()
 6. [Funções](06_funcoes/README.md)
 7. [Desafios de Projetos]()
