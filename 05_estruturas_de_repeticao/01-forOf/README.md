@@ -14,7 +14,7 @@ Em cada repetição é possível desenvolver estruturas condicionais para mostra
 
 No contexto das estruturas de repetição, temos um recurso super valioso, que é o ***for Of***. Ele é util em uma situação onde você possui uma lista de itens, e precisa ler ou manipular esses itens.
 
-O que vimos anteriormente, no assunto de [Vetores / Arrays](https://github.com/ldmfabio/1INFOs-vetores) é de grande relevância e ter aprendido o conceito de Arrays é requisito fundamental para começarmos os estudos sobre as estruturas de repetição.
+O que vimos anteriormente, no assunto de [Vetores / Arrays](../../04_arrays/README.md) é de grande relevância e ter aprendido o conceito de Arrays é requisito fundamental para começarmos os estudos sobre as estruturas de repetição.
 
 Consideremos novamente o nosso exemplo abordado anteriormente, sobre a lista de compras:
 ```javascript

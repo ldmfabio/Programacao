@@ -84,7 +84,15 @@ Os temas que aparecerão aqui repetidamente são:
 * operador ternário (e operador ternário aninhado)
 * switch... case
 * variáveis e operadores (muitas operações matemáticas!)
-* e, principalmente, [**Arrays!!**](https://github.com/ldmfabio/1INFOs-vetores)
+* e, principalmente, [**Arrays!!**](../../04_arrays/README.md)
+
+#
+## BÓRA PRATICAR?
+
+Colocando em prática o conhecimento apresentado sobre Arrays, vamos para uma pequena lista de exercícios.
+
+## [**<u>Clique aqui para acessar a Lista de Exercícios</u>**](listaExercicios_01/README.md)
+
 
 ##### Alguns links para estudos complementares
 
