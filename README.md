@@ -65,7 +65,7 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
 5. [Estruturas de Repetição](05_estruturas_de_repeticao/README.md)
    1. [For...Of](05_estruturas_de_repeticao/01-forOf/README.md)
    2. [For com Variável de Controle](05_estruturas_de_repeticao/02-forControle/README.md)
-   # Item 5.3 em diante está em Construção
-   3. [Do While]()
+   3. [Do...While](05_estruturas_de_repeticao/03-while/README.md)
+#Item 6 em diante em construção
 6. [Funções](06_funcoes/README.md)
 7. [Desafios de Projetos]()
