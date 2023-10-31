@@ -1,0 +1,13 @@
+<script>
+    function situacaoAluno(mediaAluno, mediaAprovacao) {
+        if (mediaAluno >= mediaAprovacao) {
+            alert("Aprovado!");
+        } else {
+            alert("Reprovado!");
+        }
+    }
+    let mediaAluno = prompt("Qual foi a sua nota na prova?");
+    let mediaAprovacao = prompt("Qual é a média para aprovação?");
+    situacaoAluno(mediaAluno, mediaAprovacao);
+    document.write('<a href="javascript:history.back()">Voltar</a>');
+</script>

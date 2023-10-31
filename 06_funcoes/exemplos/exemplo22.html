@@ -1,0 +1,12 @@
+<script>
+    function situacaoAluno({ mediaAluno, mediaAprovacao = 6 }) {
+        if (mediaAluno >= mediaAprovacao) {
+            return "Aprovado";
+        } else {
+            return "Reprovado";
+        }
+    }
+    let resposta = situacaoAluno({ mediaAluno: 10 });
+    alert(resposta);
+    document.write('<a href="javascript:history.back()">Voltar</a>');
+</script>
