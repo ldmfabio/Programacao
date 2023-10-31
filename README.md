@@ -68,5 +68,5 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
    3. [Do...While](05_estruturas_de_repeticao/03-while/README.md)
 6. [Funções](06_funcoes/README.md)
 # Item 7 em diante em construção
-7. [Objetos(07_objetos/README.md))]
+7. [Objetos](07_objetos/README.md)
 8. [Desafios de Projetos]()
