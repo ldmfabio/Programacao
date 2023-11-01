@@ -56,7 +56,7 @@ function situacaoAluno(mediaAluno, mediaAprovacao) {
 Portanto, para chamar a função, utilizando dois parâmetros, a sintaxe será da seguinte forma:
 
 ```javascript
-situacaoAluno(6, 10);
+situacaoAluno(10, 6);
 ```
 
 Considere, então, que o programa perguntará ao aluno qual foi sua nota na prova e qual é a média para aprovação. Assim, o programa deve receber esses dois valores e passar para a função. Veja o exemplo: [EXEMPLO03.HTML](exemplos/exemplo03.html)
