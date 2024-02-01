@@ -10,7 +10,7 @@
 
 A primeira versão da Linguagem JavaScript foi lançada em 1995, pela Netscape Communications Corporation, junto com a Sun Microsystems. Alguns browsers possuíam suporte para a Linguagem JavaScript, outros browsers não. Há 25 anos havia, na verdade, uma *guerra dos browsers*, e o browser que predominava era o Netscape Navigator.
 
-Porém, um levantamento realizado em 2022 apontou o seguinte:
+Porém, um levantamento realizado em 2023 apontou o seguinte:
 
 
 ![Browsers mais utilizados](browsers.png)
@@ -29,7 +29,7 @@ Os arquivos JS (JavaScript) se destacam no desenvolvimento de páginas para inte
 - O JS define o comportamento dos elementos. Por meio do JS é possível interagir com os visitantes da página web, salvar dados do usuário, recuperar dados, auxiliar em layouts, etc.
 
 No que respeita a pódio, a linguagem JavaScript é, atualmente, a mais utilizada no mundo, conforme números fornecidos pelo GitHub, sobre os repositórios armazenados na plataforma.
-![Linguagens de Programação mais utilizadas (2022 - GitHub)](programminglanguages.png)
+![Linguagens de Programação mais utilizadas (2023 - GitHub)](programminglanguages.png)
 
 Por mais que ocorra uma diminuição da utilização da linguagem JavaScript, fique tranquilo. Para essa disciplina, ela cumpre (e muito bem) o seu propósito, que é o aprendizado de conceitos de Programação.
 
@@ -42,4 +42,4 @@ Alguns exemplos de aplicações simples em JavaScript que podemos desenvolver s�
 
 Agora, vamos certificar os seus conhecimentos básicos em Lógica de Programação.
 
-### [**<u>Clique aqui para ir até a apresentação da certificação do curso mantido pela GrassHopper</u>**](../01_06_certificacao_fundamentos/README.md)
+### [**<u>Clique aqui para ir até a apresentação do aplicativo MIMO, que contém vários cursos de Programação e, dentre estes, o curso de JavaScript</u>**](../01_06_certificacao_fundamentos/README.md)
