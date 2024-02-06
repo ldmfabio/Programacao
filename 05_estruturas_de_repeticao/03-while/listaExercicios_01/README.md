@@ -56,6 +56,6 @@ d) A idade e o sexo da pessoa que possui o menor salário;
 Finalize a entrada de dados ao ser digitada uma idade negativa.
 
 #
-## Finalizou os Exercícios? Muito bem! Então vamos agora para o próximo conteúdo, **Funções**!
+## Finalizou os Exercícios? Muito bem! Então vamos agora para o próximo conteúdo, <u>**Funções**</u>!
 
-### [**Clique aqui para acessar o próximo tema, Funções**](../../../06_funcoes/README.md
+## [**Clique aqui para acessar o próximo tema, Funções**](../../../06_funcoes/README.md)

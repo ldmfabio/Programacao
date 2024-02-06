@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../README.md)
+
+#### [**Página Anterior**](../05_estruturas_de_repeticao/03-while/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado o conteúdo sobre Estrutura de Repetição!
+- Caso ainda não tenha finalizado, [**CLIQUE AQUI**.](../05_estruturas_de_repeticao/README.md)
+
 # Funções
 
 Aqui falaremos um pouco de funções em JavaScript. É possível criar funções com passagem de parâmetros, com retorno de um valor ou um conjunto de valores e até mesmo funções anônimas. Ainda, podemos fazer com que uma função seja utilizada como um módulo, que contém um trecho de código que se repete e, assim, pode ser acionado várias vezes num mesmo programa ou em diversos programas diferentes.
