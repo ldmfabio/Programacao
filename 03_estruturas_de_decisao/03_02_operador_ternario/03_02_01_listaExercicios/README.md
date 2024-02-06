@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter compreendido a introdução sobre Operadores Ternários!
+- Caso ainda tenha alguma dúvida, [**CLIQUE AQUI**.](../README.md)
+
 # Lista de Exercícios - Operador Ternário
 ## *<u>Enviar link do repositório GitHub com os programas desenvolvidos</u>*
 

@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Lista de Exercícios anterior!
+- Caso não tenha concluído ainda, [**CLIQUE AQUI**.](../02_05_01_listaExercicios/README.md)
+
 # Lista de Exercícios [02] - Variáveis e Operadores
 
 ### **<u>[Problema 01: Área do triângulo](01_areaTriangulo.html)</u>**

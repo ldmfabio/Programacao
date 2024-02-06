@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../01-forOf/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Lista de Exercícios sobre a Estrutura de Repetição For...Of!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../01-forOf/listaExercicios_01/README.md)
+
 # Repetição com variável de controle
 ## Laços de repetição com For
 
@@ -89,7 +97,7 @@ Os temas que aparecerão aqui repetidamente são:
 #
 ## BÓRA PRATICAR?
 
-Colocando em prática o conhecimento apresentado sobre Arrays, vamos para uma pequena lista de exercícios.
+Colocando em prática o conhecimento apresentado sobre For com Variável de Controle, vamos para uma pequena lista de exercícios.
 
 ## [**<u>Clique aqui para acessar a Lista de Exercícios</u>**](listaExercicios_01/README.md)
 

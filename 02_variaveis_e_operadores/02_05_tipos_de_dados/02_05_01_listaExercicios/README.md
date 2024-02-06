@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter explorado o conteúdo sobre Tipos de Dados!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../README.md)
+
 # Lista de Exercícios [01] - Variáveis e Operadores
 
 ### **<u>[Problema 01: Diferença de idade](01_diferencaIdade.html)</u>**

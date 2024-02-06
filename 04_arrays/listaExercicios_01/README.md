@@ -1,13 +1,21 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter compreendido a introdução sobre Arrays!
+- Caso ainda tenha alguma dúvida, [**CLIQUE AQUI**.](../README.md)
+
 # Lista de Exercícios
 
-## <u>[**Problema 01: Array em ordem crescente**](01_arrayCrescente2.html)</u>
+## <u>[**Problema 01: Array em ordem crescente**](01_arrayCrescente.html)</u>
 Peça para um usuário inserir dois números.
 
 Crie um array com os números, colocando-os em ordem crescente. Para ordenar, NÃO use o método sort();
 
 Retorne os elementos do array, separando-os por hífen (n1 - n2).
 
-## <u>[**Problema 02: Array em ordem decrescente**](02_arrayDecrescente_3.html)</u>
+## <u>[**Problema 02: Array em ordem decrescente**](02_arrayDecrescente.html)</u>
 Peça para um usuário inserir três números.
 
 Crie um array com os três números, colocando-os em ordem decrescente. Para ordenar, NÃO use o método reverse();

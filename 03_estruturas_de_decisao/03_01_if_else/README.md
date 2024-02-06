@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter explorado o conteúdo introdutório sobre Estrutura de Decisão!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../README.md)
+
 # <u>**IF...ELSE**</u>
 
 ## **Sintaxe básica if...else**
@@ -29,7 +37,6 @@ Para que o programa execute uma ação caso a condição seja falsa, utilizamos 
 Para que possamos entender o que são condições verdadeiras e falsas, precisamos entender o que são valores booleanos. Os valores booleanos são um dos tipos de dados que foram abordados no início da disciplina de Programação I.
 
 > ## **<u>_Relembrando:_</u> Tipos de Dados**
-
 > **Booleano**: é um tipo de dado que pode assumir apenas dois valores: _true_ ou _false_.
 > 
 > **String:** é um tipo de dado que representa um conjunto de caracteres.
@@ -46,14 +53,14 @@ A Tabela abaixo contempla os Operadores Relacionais utilizados em JavaScript.
 
 | Operador | Símbolo | Significado |
 |:-------:|:-------|:-----------|
-| **==** | <u>_Igual a_</u> | Retorna verdadeiro caso os dados contenham o mesmo conteúdo |
-| **===** | <u>_Estritamente igual a_</u> | Retorna verdadeiro caso os dados contenham o mesmo conteúdo e sejam do mesmo tipo |
-| **!=** | <u>_Diferente de_</u> | Retorna verdadeiro caso os dados não contenham o mesmo conteúdo |
-| **!==** | <u>_Estritamente diferente de_</u> | Retorna verdadeiro caso os dados não contenham o mesmo conteúdo ou sejam de tipos diferentes |
-| **>** | <u>_Maior que_</u> | Retorna verdadeiro caso o dado da esquerda seja maior que o dado da direita |
-| **>=** | <u>_Maior ou igual a_</u> | Retorna verdadeiro caso o dado da esquerda seja maior ou igual ao dado da direita |
-| **<** | <u>_Menor que</u>_ | Retorna verdadeiro caso o dado da esquerda seja menor que o dado da direita |
-| **<=** | <u>_Menor ou igual a</u>_ | Retorna verdadeiro caso o dado da esquerda seja menor ou igual ao dado da direita |
+| **==** | <u>_Igual a_</u> | Retorna verdadeiro _(true)_ caso os dados contenham o mesmo conteúdo |
+| **===** | <u>_Estritamente igual a_</u> | Retorna verdadeiro _(true)_ caso os dados contenham o mesmo conteúdo e sejam do mesmo tipo |
+| **!=** | <u>_Diferente de_</u> | Retorna verdadeiro _(true)_ caso os dados não contenham o mesmo conteúdo |
+| **!==** | <u>_Estritamente diferente de_</u> | Retorna verdadeiro _(true)_ caso os dados não contenham o mesmo conteúdo ou sejam de tipos diferentes |
+| **>** | <u>_Maior que_</u> | Retorna verdadeiro _(true)_ caso o dado da esquerda seja maior que o dado da direita |
+| **>=** | <u>_Maior ou igual a_</u> | Retorna verdadeiro _(true)_ caso o dado da esquerda seja maior ou igual ao dado da direita |
+| **<** | <u>_Menor que</u>_ | Retorna verdadeiro _(true)_ caso o dado da esquerda seja menor que o dado da direita |
+| **<=** | <u>_Menor ou igual a</u>_ | Retorna verdadeiro _(true)_ caso o dado da esquerda seja menor ou igual ao dado da direita |
 
 
 _A Tabela acima está disponível também via imagem, [**<u>clicando aqui</u>**](operadoresRelacionais.png)._
@@ -121,7 +128,7 @@ Vamos então adicionar complexidade ao nosso exemplo do programa desenvolvido pa
 - Já chegou na terceira idade
 
 ### **Maioridade ou não e terceira idade**
-_Desenvolva um programa que peça para o usuário informar a sua idade e retorne se o usuário já atingiu a maioridade ou não e se já chegou na terceira idade._
+_Desenvolva um programa que peça para o usuário informar a sua idade e retorne se o usuário já atingiu a maioridade ou não ou talvez já tenha chego na terceira idade._
 
 _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](03_maioridade.html)._
 
@@ -140,7 +147,7 @@ _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](03_
 ```
 > Note que no exemplo acima, a primeira condição verifica se a idade é menor que 18, ou seja, se o usuário ainda não atingiu a maioridade. Caso a idade seja menor que 18, o programa não verifica as demais condições, pois já sabe que o usuário ainda não atingiu a maioridade.
 >
-> Na segunda possibilidade, o programa analisa se a idade é menor que 60, ou seja, se o usuário já atingiu a maioridade. Caso a idade seja menor que 60, o programa não verifica a última condição, pois já sabe que o usuário já atingiu a maioridade. Não é necessário, na segunda possibilidade - _else if (idade < 60)_ - também validar se a idade é maior que 18, pois esta condição só será validada se a primeira condição for falsa, ou seja, se a idade do usuário não for menor que 18.
+> Na segunda possibilidade, o programa analisa se a idade é menor que 60, ou seja, se o usuário já atingiu a maioridade. Caso a idade seja menor que 60, o programa não verifica a última condição, pois já sabe que o usuário já atingiu a maioridade. Não é necessário, na segunda possibilidade - _else if (idade < 60)_ - também validar se a idade é maior que 18, pois esta condição só será validada se a primeira condição for falsa, ou seja, se a idade do usuário não for menor que 18. Caso a idade seja inferior a 18 anos, o programa não verifica a próxima condição e já finaliza a estrutura de decisão, pois encontrou uma condição verdadeira.
 >
 > Na terceira possibilidade, o programa analisa se a idade é maior ou igual a 60, ou seja, se o usuário já chegou na terceira idade. Esta validação será feita apenas se as condições anteriores não forem verdadeiras, ou seja, se a idade do usuário não for menor que 18 e se a idade do usuário não for menor que 60. Caso alguma das condições anteriores seja verdadeira, o programa não verifica a última condição, pois já sabe que o usuário ainda não chegou na terceira idade.
 

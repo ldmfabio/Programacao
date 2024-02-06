@@ -1,3 +1,13 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter aplicado os conceitos sobre Saída de Dados e Entrada de Dados!
+- Caso não tenha feito, clique nos links abaixo para navegar até o material que ficou pendente
+  - [**Saída de Dados**](../../02_02_saida_de_dados/README.md)
+  - [**Entrada de Dados**](../../02_03_entrada_de_dados/README.md)
+
 # Lista de Exercícios
 
 ## Treinando Entrada e Saída de Dados

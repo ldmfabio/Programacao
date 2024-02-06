@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../02_01_arquivo_html_js/README.md)
+
+***Requisitos para estar aqui:***
+- Ter entendido a relação entre os diferentes tipos de arquivo que serão trabalhados!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../../02_variaveis_e_operadores/02_01_arquivo_html_js/README.md)
+  
 # <u>**VARIÁVEIS E OPERADORES**</u>
 
 ## **SAÍDA DE DADOS**
@@ -44,8 +52,8 @@ Também é possível que utilizemos as aspas simples. Neste caso, o código ser�
 </script>
 ```
 
-Contudo, o mais recomendado é que, ao invés das aspas, utilizemos a crase \` ` para determinar o texto. Adiante entenderemos o motivo.
-> *Spoiler: serve para facilitar a concatenação.*
+Contudo, o **mais recomendado** é que, ao invés das aspas, utilizemos a crase \` ` para determinar o texto. Adiante entenderemos o motivo.
+> *Spoiler: é uma forma moderna de realizar concatenações.*
 
 Usando a crase, o código então será:
 ```javascript

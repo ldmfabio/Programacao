@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../03_01_if_else/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Lista de Exercícios Obrigatória sobre Estrutura de Decisão [If...Else]!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../03_01_if_else/03_01_02_listaExercicios/README.md)
+
 # <u>**Estruturas de Decisão - Operador Ternário**</u>
 
 ## **Operador ternário - O que é?**

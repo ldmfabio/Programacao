@@ -1,3 +1,15 @@
+### [**Voltar para o Início**](../README.md)
+
+#### [**Página Anterior**](../03_estruturas_de_decisao/03_03_switch_case/README.md)
+
+***Requisitos para estar aqui:***
+- Ter compreendido as Estruturas de Decisão IF...Else, Operador Ternário e Switch...Case!
+- Caso ainda tenha alguma dúvida sobre alguma Estrutura de Decisão, clique no link correspondente:
+  - [**IF...ELSE**.](../03_estruturas_de_decisao/03_01_if_else/README.md)
+  - [**Operador Ternário**.](../03_estruturas_de_decisao/03_02_operador_ternario/README.md)
+  - [**Switch...Case**.](../03_estruturas_de_decisao/03_03_switch_case/README.md)
+
+
 # Arrays
 
 Os arrays são estruturas que nos permitem armazenar uma lista de dados na memória do computador.

@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../README.md)
+
+#### [**Página Anterior**](../01_introducao/01_06_certificacao_fundamentos/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Seção 01 deste repositório, percorrendo etapa por etapa do caminho proposto para o aprendizado da disciplina de Programação I!
+- Caso não tenha finalizado ainda, volte para a seção anterior e verifique o que ficou pendente. Para voltar, [**CLIQUE AQUI**.](../01_introducao/README.md)
+
 # <u>**VARIÁVEIS E OPERADORES**</u>
 
 ## Introdução ao Visual Studio Code
@@ -22,11 +30,11 @@ Após a criação da pasta, abra o VSCode e siga as seguintes etapas:
 
 **PRONTO!** Agora você está navegando na sua pasta, podendo adicionar arquivos que farão parte da sua aplicação web.
 
-Antes de criarmos os arquivos, é necessário explicar os recursos que o VSCode dispõe para gerenciar a sua aplicação. Note a Figura abaixo:
+Antes de criarmos os arquivos, é necessário explicar alguns dos recursos que o VSCode dispõe para gerenciar a sua aplicação. Note a Figura abaixo:
 
 ![Recursos do VSCode](VSCode.png)
 
-Como todo software, o VSCode possui uma barra de menus. Os menus que fazem parte do meu VSCode são o File, Edit, Selection, View, To, Run ***.
+Como todo software, o VSCode possui uma barra de menus. Os menus que fazem parte do meu VSCode são o File, Edit, Selection, View, Go, Run ***.
 
 Contudo, o que quero que empreguem atenção é na coluna colada na margem esquerda do VSCode. Nesta coluna estão dispostos todos os recursos para você gerenciar a sua aplicação Web. Neste primeiro momento, vamos usar apenas um dos recursos, que é o Explorer, o primeiro ícone posicionado no topo da coluna.
 

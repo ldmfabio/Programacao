@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter explorado o conteúdo introdutório sobre a IDE VSCode!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../README.md)
+  
 # <u>**VARIÁVEIS E OPERADORES**</u>
 
 ## **Arquivos HTML e JS**

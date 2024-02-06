@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../03_02_operador_ternario/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a lista de exercícios obrigatória sobre Operador Ternário!
+- Caso ainda não tenha finalizado, [**CLIQUE AQUI**.](../03_02_operador_ternario/03_02_01_listaExercicios/README.md)
+
 # <u>**Estruturas de Decisão - Switch...Case**</u>
 
 ## _**Como assim... Switch...Case?**_

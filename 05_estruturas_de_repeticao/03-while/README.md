@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../02-forControle/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Lista de Exercícios sobre a Estrutura de Repetição _For com Variável de Controle_!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../02-forControle/listaExercicios_01/README.md)
+
 # Repetição com variável de controle
 ## Laços de repetição com While
 

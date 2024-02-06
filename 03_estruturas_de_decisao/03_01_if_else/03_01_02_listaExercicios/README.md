@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../03_01_01_opLogicos/README.md)
+
+***Requisitos para estar aqui:***
+- Ter explorado o conteúdo sobre Operadores Lógicos!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../03_01_01_opLogicos/README.md)
+
 # Lista de Exercícios - Estrutura de Decisão
 ## Enviar link do repositório GitHub com os programas desenvolvidos
 
@@ -120,3 +128,5 @@ Terminou tudo? Parabéns!
 Agora, que tal tentar alguns exercícios complementares para reforçar o conhecimento adquirido?
 
 # [**Clique aqui para acessar a lista de exercícios complementares**](../03_01_02_listaExercicios_2/README.md)
+
+## Ou então, caso queira continuar a trilha de aprendizagem, [**clique aqui para avançar para o próximo tópico - Operador Ternário.**](../../03_02_operador_ternario/README.md)

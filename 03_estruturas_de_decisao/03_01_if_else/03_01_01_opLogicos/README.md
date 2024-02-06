@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter explorado o conteúdo sobre a sintaxe de IF...ELSE!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../README.md)
+
 # <u>**OPERADORES LÓGICOS**</u>
 
 Anteriormente os exemplos citados baseavam-se em uma única condição, porém, em muitos casos, é necessário avaliar mais de uma condição para que uma ação seja executada. Para isso, utilizamos os operadores lógicos.
@@ -8,7 +16,7 @@ Os operadores lógicos são utilizados para combinar duas ou mais condições. O
 | :---: | :---: | :--- |
 | **and** | **&&** | Retorna True se as duas condições forem verdadeiras |
 | **or** | **\|\|** | Retorna True se uma das condições for verdadeira |
-| **not** | **!=** | Inverte o resultado, retorna False se o resultado for verdadeiro |
+| **not** | **!=** | Inverte o resultado, retorna False se o resultado for True ou True se o resultado for False |
 
 Para melhor explicar os operadores lógicos, abordaremos exemplos utilizando a _Tabela Verdade_.
 
@@ -92,5 +100,3 @@ ___Traduzindo___ a _Tabela Verdade_ para valores booleanos, resultantes das cond
 # **Praticando...**
 
 Vamos então agora colocar em prática o conteúdo abordado até aqui. Como sugestão, fica a lista de exercícios com 18 problemas para serem resolvidos, [**que está disponível clicando aqui**](../03_01_02_listaExercicios/README.md).
-
-#

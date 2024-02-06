@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../README.md)
+
+#### [**Página Anterior**](../README.md)
+
+***Requisitos para estar aqui:***
+- Ter lido a introdução sobre Estruturas de Repetição!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../README.md)
+
 # Estrutura de Repetição - For Of
 
 ## Introdução
@@ -82,7 +90,13 @@ Os temas que aparecerão aqui repetidamente são:
 * operador ternário (e operador ternário aninhado)
 * switch... case
 * variáveis e operadores (muitas operações matemáticas!)
-* e, principalmente, [**Arrays!!**](https://github.com/ldmfabio/1INFOs-vetores)
+* e, principalmente, [**Arrays!!**](../../04_arrays/README.md)
+
+# <u>**#bórapraticar**</u>
+
+**Agora que já sabemos como utilizar o ***for...of***, vamos praticar um pouco?**
+
+## [Clique aqui para ir até a Lista de Exercícios onde você terá de aplicar os conceitos relacionados com a Estrutura de Repetição For...Of](listaExercicios_01/README.md)
 
 ##### Alguns links para estudos complementares
 

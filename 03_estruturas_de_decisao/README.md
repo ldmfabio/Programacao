@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../README.md)
+
+#### [**Página Anterior**](../02_variaveis_e_operadores/02_05_tipos_de_dados/02_05_01_listaExercicios/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Seção 02 deste repositório, percorrendo etapa por etapa do caminho proposto para o aprendizado da disciplina de Programação I!
+- Caso não tenha finalizado ainda, volte para a seção anterior e verifique o que ficou pendente. Para voltar, [**CLIQUE AQUI**.](../02_variaveis_e_operadores/README.md)
+
 # <u>**ESTRUTURAS DE DECISÃO**</u>
 
 ## Introdução
@@ -12,11 +20,11 @@ Diversas são as situações em que nos deparamos com um ponto em que uma decis�
 
 Inclusive, no que respeita a rotina, podemos dizer que ela é uma sequência de decisões que tomamos para que possamos realizar nossas atividades diárias.
 
-Ou seja, programamos o nosso dia a dia, e para isso, tomamos decisões.
+Ou seja, programamos o nosso dia a dia e, para isso, tomamos decisões.
 
 Todas as decisões que tomamos são baseadas em uma condição, ou seja, se algo acontecer, eu faço isso, se não acontecer, eu faço aquilo.
 
-Praticamente todas as linguagens de programação possuem uma estrutura de decisão, que é utilizada para que o programa tome decisões e, a partir dessas decisões, altere o fluxo de execução do programa.
+Praticamente todas as linguagens de programação possuem uma estrutura de decisão, que é utilizada para que o programa analise uma ou mais condições e, a partir dessas condições, altere o fluxo de execução do programa baseado na decisão previamente desenvolvida pelo programador/desenvolvedor.
 
 ## Estruturas de decisão
 

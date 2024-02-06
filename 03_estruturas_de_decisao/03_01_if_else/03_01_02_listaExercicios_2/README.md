@@ -1,3 +1,11 @@
+### [**Voltar para o Início**](../../../README.md)
+
+#### [**Página Anterior**](../03_01_01_opLogicos/README.md)
+
+***Requisitos para estar aqui:***
+- Ter finalizado a Lista de Exercícios Obrigatória sobre Estrutura de Decisão [If...Else]!
+- Caso não tenha feito, [**CLIQUE AQUI**.](../03_01_02_listaExercicios/README.md)
+
 # Lista de Exercícios - Estrutura de Decisão [Lista Complementar]
 ## *<u>Enviar link do repositório GitHub com os programas desenvolvidos</u>*
 
