@@ -42,6 +42,9 @@ Crie um objeto chamado microondas com as propriedades marca, modelo, ligado, e c
 
 # PARABÉNS! Você finalizou a trilha de aprendizagem prevista para a disciplina de Programação I!
 
+    Caso queira, você pode se desafiar e desenvolver os dois exercícios que foram sugeridos no contexto desta disciplina do Curso Técnico em Informática para Internet do IFC-Campus Araquari.
+    [Eles podem ser acessados clicando aqui!](../../08_desafios/README.md)
+
 <u>_Contate o Professor Fábio para apresentar os exercícios a ele e, se desejar, tirar dúvidas sobre o conteúdo estudado._</u>
 
 > Volte para o Início deste material e tente se aventurar pelos materiais das outras disciplinas que compõem o Curso Técnico em Informática para Internet do IFC-Campus Araquari.

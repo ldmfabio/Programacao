@@ -14,6 +14,8 @@ Após acessar o link acima, clique em [**Sign up**](https://mimo.org/web/registe
 
 * Recomenda-se criar a conta no MIMO usando a sua Conta de e-mail do GMail.
 
+![MIMO](mimo.png)
+
 Após a criação da conta, clique em **Continue**. Na próxima página, coloque o seu **NOME**! _Não utilize nomes que não o identificarão!_
 
 Na próxima página, clique em **Sounds good**. Então o MIMO lhe perguntará o que o motiva a aprender a programar. Selecione a opção que mais lhe convém. Após, clique em **Continue**.
@@ -22,8 +24,14 @@ Então o MIMO lhe apresentará uma oferta para adquirir o plano Premium. Clique 
 
 Talvez o MIMO já lhe sugira algum curso. Porém, se isso acontecer, você poderá trocar o curso, clicando no ícone de **três linhas** no canto superior esquerdo da sua tela. Após, aparecerá duas setas que lhe permitirão trocar o curso. Clique nesta seta e selecione a opção JavaScript, que é possível acessar pelo link [**https://mimo.org/web/197/section/active**](https://mimo.org/web/197/section/active).
 
+A troca de curso pode ser feita seguindo os passos das duas imagens abaixo:
+
+![Troca de Curso - Passo 1](mimoTrocaCurso.png)
+
+![Troca de Curso - Passo 2](mimoJavaScript.png)
+
 A sua trilha de aprendizado no MIMO será a seguinte:
-01. JavaScript Basics
+1.  **JavaScript Basics**
     1.  Criação de Variáveis
     2.  Utilização de Variáveis
     3.  Usando Verdadeiro e Falso
@@ -31,7 +39,10 @@ A sua trilha de aprendizado no MIMO será a seguinte:
     5.  Prática: JavaScript Básico
     6.  Supercharge / Prática: JavaScript Básico
     7.  Coding Challenge
-2.  Tipos e Comparações
+
+![MIMO - JavaScript Basics](mimoTrilha.png)
+
+2.  **Tipos e Comparações**
     1.  Comparando Números
     2.  Comparando Strings
     3.  Descobrindo Tipos
@@ -39,6 +50,8 @@ A sua trilha de aprendizado no MIMO será a seguinte:
     5.  Prática: Tipos e Comparações
     6.  Supercharge / Prática: Tipos e Comparações
     7.  Coding Challenge
+
+![MIMO - Tipos e Comparações](mimoTrilha2.png)
 
 > <u>**A conclusão destes dois módulos é **obrigatória** para o primeiro trimestre da Disciplina de Programação I. Ao concluir, você deverá apresentar o seu aplicativo, autenticado com seu usuário, para o Professor Fábio ou o Professor Auxiliar da sua turma (Daniel / Marco / Mehran).**</u>
 

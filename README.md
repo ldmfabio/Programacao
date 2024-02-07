@@ -78,6 +78,5 @@ _Antes de começar, saiba que além deste material elaborado para o primeiro ano
    9. [Funções com parâmetros nomeados](06_funcoes/07_outras/README.md#funções-com-parâmetros-nomeados)
    10. [Funções com parâmetros nomeados e opcionais](06_funcoes/07_outras/README.md#funções-com-parâmetros-nomeados-e-opcionais)
    11. [Funções com parâmetros nomeados e variáveis](06_funcoes/07_outras/README.md#funções-com-parâmetros-nomeados-e-variáveis)
-# Item 7 em diante em construção
-1. [Objetos](07_objetos/README.md)
-2. [Desafios de Projetos]()
+7. [Objetos](07_objetos/README.md)
+8. [Desafios de Projetos]()
