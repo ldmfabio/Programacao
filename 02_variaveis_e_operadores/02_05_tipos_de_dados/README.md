@@ -15,7 +15,7 @@ As variáveis (_const_ e _let_) de um programa podem possuir diferentes tipos, s
 - números: inteiros ou decimais (int ou Number)
 - booleanos: verdadeiro ou falso (true or false)
 
-Quando sabemos o tipo do dados, podemos também identificar quais operações são possíveis para as variáveis ou, então, como elas se comportarão durante a execução do programa.
+Quando sabemos os tipos dos dados, podemos também identificar quais operações são possíveis para as variáveis ou, então, como elas se comportarão durante a execução do programa.
 
 Em JavaScript há algumas **particularidades** que devemos abordar para que não fiquem dúvidas durante o desenvolvimento dos programas. Prestem atenção nas seguintes instruções abaixo envolvendo operações matemáticas. Crie o arquivo ***ex07.html*** e cole o código abaixo:
 
