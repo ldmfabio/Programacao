@@ -1,12 +1,4 @@
-### [**Voltar para o Início**](../../../README.md)
-
-#### [**Página Anterior**](../README.md)
-
-***Requisitos para estar aqui:***
-- Ter lido a introdução sobre a Estruturas de Repetição While!
-- Caso ainda não tenha lido, [**CLIQUE AQUI**.](../README.md)
-
-# Lista de Exercícios
+# Lista de Exercícios - While
 
 ### <u>**[Problema 01: Nota entre 0 e 10](01_nota0-10.html)**</u>
 Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
@@ -55,7 +47,19 @@ d) A idade e o sexo da pessoa que possui o menor salário;
 
 Finalize a entrada de dados ao ser digitada uma idade negativa.
 
-#
-## Finalizou os Exercícios? Muito bem! Então vamos agora para o próximo conteúdo, <u>**Funções**</u>!
+### <u>**[Problema 08: Soma Enquanto](08_somaEnquanto.html)**</u>
+Peça para o usuário inserir números sucessivamente e some - os.O programa para quando o usuário inserir 0 e então exibe a soma total.
 
-## [**Clique aqui para acessar o próximo tema, Funções**](../../../06_funcoes/README.md)
+### <u>**[Problema 09: Acertar Número](09_acertarNumero.html)**</u>
+O computador escolhe um número aleatório de 1 a 30, e o usuário precisa adivinhar. O programa dá dicas ("maior" ou "menor") até acertar.
+
+### <u>**[Problema 10: Fibonacci](10_fibonacci.html)**</u>
+Pergunte ao usuário quantos números da sequência de Fibonacci deseja obter, usando a estrutura de repetição while.
+
+### <u>**[Problema 11: Inversão de Números](11_inversaoNumero.html)**</u>
+Escreva um programa que peça ao usuário um número e inverta sua ordem usando uma estrutura de repetição while.
+```
+Exemplo:
+Entrada: 12345
+Saída: 54321
+```
