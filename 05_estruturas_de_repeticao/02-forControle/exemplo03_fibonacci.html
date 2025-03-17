@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+<script>
+    var limiteF = Number(prompt("Quantos elementos para a sequência de Fibonacci:"));
+    let fibonacci = [];
+    fibonacci.push(0, 1);
+    for (let num = 2; num < limiteF; num++) {
+        fibonacci.push(fibonacci[num - 2] + fibonacci[num - 1]);
+    }
+    document.write(fibonacci);
+</script>

@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    const fatorial = parseInt(prompt(`Número para calcular fatorial:`));
+    let resultado = 1;
+    for (let contador = 1; contador <= fatorial; contador++) {
+        resultado = resultado * contador;
+    }
+    document.write(`O fatorial de ${fatorial} é ${resultado}.`);
+</script>

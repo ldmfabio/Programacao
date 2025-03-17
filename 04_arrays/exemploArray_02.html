@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+    const listaNumeros = [1, 2, 3, 4];
+    const listaLetras = ["a", "b", "c", "d"];
+    //Atribuir dois arrays para o mesmo array.
+    const arrayDeArrays = [listaNumeros, listaLetras];
+    //Imprimir conteúdo do array, que referencia outros arrays.
+    document.write(arrayDeArrays.toString() + "<br/>");
+    //Adicionar outro elemento ao final do array listaLetras
+    listaLetras.push("e");
+    //Imprimir conteúdo atualizado do array, que faz referência aos outros arrays.
+    document.write(arrayDeArrays.toString());
+</script>
