@@ -24,11 +24,14 @@ Então o MIMO lhe apresentará uma oferta para adquirir o plano Premium. Clique 
 
 Talvez o MIMO já lhe sugira algum curso. Porém, se isso acontecer, você poderá trocar o curso, clicando no ícone de **três linhas** no canto superior esquerdo da sua tela. Após, aparecerá duas setas que lhe permitirão trocar o curso. Clique nesta seta e selecione a opção JavaScript, que é possível acessar pelo link [**https://mimo.org/web/197/section/active**](https://mimo.org/web/197/section/active).
 
-A troca de curso pode ser feita seguindo os passos das duas imagens abaixo:
+A troca de curso pode ser feita seguindo os passos das imagens abaixo:
 
-![Troca de Curso - Passo 1](mimoTrocaCurso.png)
+![Troca de Curso - Passo 1](mimo1.png)
 
-![Troca de Curso - Passo 2](mimoJavaScript.png)
+![Troca de Curso - Passo 2](mimo2.png)
+
+![Troca de Curso - Passo 3](mimo3.png)
+
 
 A sua trilha de aprendizado no MIMO será a seguinte:
 1.  **JavaScript Basics**
@@ -40,7 +43,7 @@ A sua trilha de aprendizado no MIMO será a seguinte:
     6.  Supercharge / Prática: JavaScript Básico
     7.  Coding Challenge
 
-![MIMO - JavaScript Basics](mimoTrilha.png)
+![MIMO básico - 1ª Etapa](mimo4.png)
 
 2.  **Tipos e Comparações**
     1.  Comparando Números
@@ -51,9 +54,9 @@ A sua trilha de aprendizado no MIMO será a seguinte:
     6.  Supercharge / Prática: Tipos e Comparações
     7.  Coding Challenge
 
-![MIMO - Tipos e Comparações](mimoTrilha2.png)
+![MIMO básico - 2ª Etapa](mimo5.png)
 
-> <u>**A conclusão destes dois módulos é **obrigatória** para o primeiro trimestre da Disciplina de Programação I. Ao concluir, você deverá apresentar o seu aplicativo, autenticado com seu usuário, para o Professor Fábio ou o Professor Auxiliar da sua turma (Daniel / Marco / Mehran).**</u>
+> <u>**A conclusão destes dois módulos é **obrigatória** para o primeiro trimestre da Disciplina de Programação I. Ao concluir, você deverá apresentar o seu aplicativo, autenticado com seu usuário, para o Professor Fábio ou o Professor Auxiliar da sua turma (Mehran[1INFO1] / Marco[1INFO2] / Daniel[1INFO3]).**</u>
 
 > **<u>ATENÇÃO:</u>**<br>
 > <u>**A nota do primeiro trimestre considerará a conclusão desses dois módulos, ou seja, se você não concluir, a sua nota será prejudicada. O peso da nota será de 20% da nota do 1º trimestre.**</u>
