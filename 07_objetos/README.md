@@ -20,7 +20,7 @@ let pessoa = {
 
 Neste exemplo, temos um objeto chamado `pessoa`, que contém três pares chave/valor. A chave é uma string, e o valor pode ser um número, uma string, ou qualquer outro tipo de dado. O objeto é delimitado por chaves `{}` e os pares chave/valor são separados por vírgula. A chave e o valor são separados por dois pontos `:`.
 
-## Acessando propriedades
+## Acessando propriedades 
 
 Para acessar as propriedades de um objeto, utilizamos a notação de ponto `.` ou a notação de colchetes `[]`. Veja os exemplos:
 

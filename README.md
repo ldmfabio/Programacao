@@ -8,7 +8,7 @@ Este material foi elaborado baseando-se no livro [Lógica de Programação e Alg
 
 Este material está em constante desenvolvimento. Portanto, caso tenha algumas sugestões de melhoria e/ou correções, por favor entre em contato comigo por [e-mail ](mailto:fabio.moura@ifc.edu.br). Se preferir, faça uma solicitação decontribuição ao projeto.
 
-**Como contribuir com um projeto privado:**
+**Como contribuir com um projeto privado:** 
 
 - Criar um fork do projeto;
 - Clonar o fork;

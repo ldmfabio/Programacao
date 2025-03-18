@@ -88,7 +88,7 @@ Imagine os seguintes exemplos:
 
 Para ordenar os elementos do array, existem métodos que ordenam os itens de forma crescente e de forma decrescente.
 
-***Após ordenar, não será possível retornar para a sequência anterior.***
+***Após ordenar, não será possível retornar para a sequência anterior.*** 
 
 | Método | Utilidade |
 | :--- | :--- |

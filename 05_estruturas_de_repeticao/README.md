@@ -2,7 +2,7 @@
 
 #### [**Página Anterior**](../04_arrays/README.md)
 
-***Requisitos para estar aqui:***
+***Requisitos para estar aqui:*** 
 - Ter compreendido a introdução sobre Arrays e ter finalizado a lista de exercícios sobre Arrays!
 - Caso não tenha feito, [**CLIQUE AQUI**.](../04_arrays/listaExercicios_01/README.md)
 

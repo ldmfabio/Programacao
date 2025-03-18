@@ -2,7 +2,7 @@
 
 #### [**Página Anterior**](../05_estruturas_de_repeticao/03-while/README.md)
 
-***Requisitos para estar aqui:***
+***Requisitos para estar aqui:*** 
 - Ter finalizado o conteúdo sobre Estrutura de Repetição!
 - Caso ainda não tenha finalizado, [**CLIQUE AQUI**.](../05_estruturas_de_repeticao/README.md)
 

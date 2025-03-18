@@ -26,7 +26,7 @@ Todas as decisões que tomamos são baseadas em uma condição, ou seja, se algo
 
 Praticamente todas as linguagens de programação possuem uma estrutura de decisão, que é utilizada para que o programa analise uma ou mais condições e, a partir dessas condições, altere o fluxo de execução do programa baseado na decisão previamente desenvolvida pelo programador/desenvolvedor.
 
-## Estruturas de decisão
+## Estruturas de decisão 
 
 São diferentes as estruturas de decisão que podemos utilizar em um programa, e cada uma delas possui uma sintaxe específica, que deve ser seguida para que o programa funcione corretamente.
 
