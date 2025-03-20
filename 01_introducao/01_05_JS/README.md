@@ -29,6 +29,7 @@ Os arquivos JS (JavaScript) se destacam no desenvolvimento de páginas para inte
 - O JS define o comportamento dos elementos. Por meio do JS é possível interagir com os visitantes da página web, salvar dados do usuário, recuperar dados, auxiliar em layouts, etc.
 
 No que respeita a pódio, a linguagem JavaScript é, atualmente, a mais utilizada no mundo, conforme números fornecidos pelo GitHub, sobre os repositórios armazenados na plataforma.
+
 ![Linguagens de Programação mais utilizadas (2023 - GitHub)](programminglanguages.png)
 
 Por mais que ocorra uma diminuição da utilização da linguagem JavaScript, fique tranquilo. Para essa disciplina, ela cumpre (e muito bem) o seu propósito, que é o aprendizado de conceitos de Programação.
