@@ -10,7 +10,7 @@
 
 A primeira versão da Linguagem JavaScript foi lançada em 1995, pela Netscape Communications Corporation, junto com a Sun Microsystems. Alguns browsers possuíam suporte para a Linguagem JavaScript, outros browsers não. Há 25 anos havia, na verdade, uma *guerra dos browsers*, e o browser que predominava era o Netscape Navigator.
 
-Porém, um levantamento realizado em 2023 apontou o seguinte:
+Porém, um levantamento realizado em 2025 apontou o seguinte:
 
 
 ![Browsers mais utilizados](browsers.png)
