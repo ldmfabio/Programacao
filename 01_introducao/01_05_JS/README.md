@@ -15,6 +15,8 @@ Porém, um levantamento realizado em 2025 apontou o seguinte:
 
 ![Browsers mais utilizados](browsers.png)
 
+Fonte: https://isb-vietnam.com.vn/browser-market-share-2025/
+
 Contudo, embora seja o mais usado, pesquisas citam que a Engine JavaScript dos browsers diferem (e muito) na sua agilidade.
 
 O pódio, por enquanto, tem os seguintes browsers:
