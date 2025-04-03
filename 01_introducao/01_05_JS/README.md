@@ -17,7 +17,7 @@ Porém, um levantamento realizado em 2025 apontou o seguinte:
 
 Fonte: https://isb-vietnam.com.vn/browser-market-share-2025/
 
-Contudo, embora seja o mais usado, pesquisas citam que a Engine JavaScript dos browsers diferem (e muito) na sua agilidade.
+Contudo, desconsiderando os mais usados, pesquisas citam que a Engine JavaScript dos browsers diferem (e muito) na sua agilidade.
 
 O pódio, por enquanto, tem os seguintes browsers:
 - 1º: Safari (Apenas MacOS)
