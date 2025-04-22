@@ -23,8 +23,8 @@ Peça para o usuário informar o salário atual e a porcentagem de aumento. Faç
 ### **<u>[Problema 05: Desconto no preço](05_descontoPreco.html)</u>**
 Peça para o usuário informar o preço de um produto e também informar qual a porcentagem de desconto que será aplicado no preço do produto. Faça o cálculo do preço final do produto após aplicar a porcentagem de desconto e apresente o resultado.
 
-### **<u>[Problema 06: Aumento Salarial](06_aumentoSalarial.html)</u>**
-Peça para o usuário informar o salário que recebe mensalmente. Também peça para informar o percentual que deseja pedir de aumento salarial. Calcule qual será o novo salário após o aumento desejado e apresente o resultado.
+### **<u>[Problema 06: Latas de tinta](06_latasTinta.html.html)</u>**
+Peça para o usuário informar quantos metros quadrados deseja pintar. Apresente quantas latas de tinta são necessárias, considerando que um litro de tinta cobrirá 3 metros, e cada lata possui 18 litros de tinta.
 
 ### **<u>[Problema 07: Gorjeta](07_gorjeta.html)</u>**
 Peça para o usuário informar qual foi o preço do jantar. Calcule 10% da gorjeta e apresente o preço total que deverá pagar para o restaurante e apresente o resultado.
@@ -51,8 +51,5 @@ Peça para o usuário informar quantas horas trabalha no mês e quantos que rece
 
 ### **<u>[Problema 14: Dúzia de ovos](14_duziaOvos.html)</u>**
 Peça para o usuário informar a quantidade de ovos que foram comprados e apresente a quantidade de dúzias correspondente. Considere sempre dúzias cheias. Caso precise, arredonde para cima.
-
-### **<u>[Problema 15: Latas de tinta](15_latasTinta.html)</u>**
-Peça para o usuário informar quantos metros quadrados deseja pintar. Apresente quantas latas de tinta são necessárias, considerando que um litro de tinta cobrirá 3 metros, e cada lata possui 18 litros de tinta.
 
 # [**Terminou a lista toda? Conferiu novamente se está tudo certo? Então clique aqui para fazer uma lista complementar :-)**](../02_05_02_listaExercicios_2/README.md)
