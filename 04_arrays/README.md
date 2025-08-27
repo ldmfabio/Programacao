@@ -86,6 +86,85 @@ Imagine os seguintes exemplos:
 * *const* **itemRemovido** = listaCompras.splice(2, 1);
   * A partir do terceiro item da lista (correspondente com o número 2 do método splice), retirará um item (correspondente com o número 1 do método splice). Portanto, **itemRemovido** terá o conteúdo ["Laranja"], enquanto que o array original, **listaCompras**, será atualizado para ["Acerola", "Banana", "Melancia"];
 
+
+#### Explorando o método _splice()_
+
+Podemos usar dois ou três parâmetros no método splice(). Consideremos novamente a nossa lista de compras:
+
+* *const* **listaCompras** = ["Acerola", "Banana", "Laranja", "Melancia"];
+
+* Um parâmetro:
+
+```javascript
+listaCompras.splice(2);
+```
+
+Com o método acima, o resultado da lista de compras será:
+
+**["Acerola", "Banana"]**
+
+Afinal, o splice(2) fará com que todos os elementos à partir da posição 2 sejam removidos.
+
+* Dois parâmetros:
+
+Considere que a lista de compras voltou a ter o conteúdo original:
+
+```javascript
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
+```
+E então o código abaixo será executado:
+
+```javascript
+listaCompras.splice(2, 1);
+```
+
+O resultado da lista de compras será:
+
+**["Acerola", "Banana", "Melancia"]**
+
+Isso se deve ao fato de que, à partir da posição 2, foi removido 1 elemento, que corresponde, respectivamente ao primeiro parâmetro e ao segundo parâmetro da função **splice(2, 1)**. O elemento removido foi o "Laranja", pois estava na segunda posição (posição 2 - primeiro parâmetro da função). Foi removido apenas um elemento pois o segundo parâmetro indicou exatamente isso (número 1).
+
+* Tres parâmetros:
+
+Considere novamente que a lista de compras voltou a ter o conteúdo original:
+
+```javascript
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
+```
+E então o código abaixo será executado:
+
+```javascript
+listaCompras.splice(2, 1, "Abacaxi");
+```
+
+O resultado da lista de compras será:
+
+**["Acerola", "Banana", "Abacaxi", "Melancia"]**
+
+Com três parâmetros, a lógica é a seguinte:
+
+* Primeiro parâmetro: indica a posição do array que será afetada;
+* Segundo parâmetro: poderá ser 0 ou 1. Neste caso foi 1, que significa que será **ALTERADO** o item da posição 2, especificada no primeiro parâmetro. Ou seja, o item "Laranja".
+* Terceiro parâmetro: indica o item que será inserido na posição indicada no primeiro parâmetro. Neste caso, foi inserido o item "Abacaxi".
+
+O resultado da lista de compras será:
+
+**["Acerola", "Banana", "Abacaxi", "Melancia"]**
+
+Ao invés do número 1, colocado como segundo parâmetro, poderia ser então utilizado o número **0**. Sendo assim, ao invés de substituir um valor por outro, ao utilizar o **0** como parâmetro, será adicionado um novo item na posição indicada no primeiro parâmetro. 
+
+Considerando que a instrução é a mesma:
+
+```javascript
+listaCompras.splice(2, 0, "Abacaxi");
+```
+
+O resultado da lista de compras será:
+
+**["Acerola", "Banana", "Abacaxi", "Laranja", "Melancia"]**
+
+Portanto, ao invés de substituir o item da posição 2 pelo item "Abacaxi", o item "Abacaxi" será adicionado na posição 2, fazendo com que os elementos após a posição 2 sejam empurrados para a posição seguinte.
+
 Para ordenar os elementos do array, existem métodos que ordenam os itens de forma crescente e de forma decrescente.
 
 ***Após ordenar, não será possível retornar para a sequência anterior.*** 
@@ -95,6 +174,36 @@ Para ordenar os elementos do array, existem métodos que ordenam os itens de for
 | sort() | Ordena os itens de forma crescente - do menor para o maior: **A->Z**. |
 | reverse() | Ordena os itens de forma descrescente - do maior para o menor:  **Z->A**. |
 
+Entretanto, para ordenar um Array de números, não utiliza-se apenas o método sort() ou reverse().
+
+```javascript
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+numeros.sort();
+```
+
+O resultado será o seguinte:
+
+**[1, 10, 2, 3, 4, 5, 6, 7, 8, 9]**
+
+Portanto, para ordenar um Array de números, utiliza-se o seguinte comando:
+```javascript
+numeros.sort(function(a, b) {
+    return a - b;
+});
+```
+O parâmetro *a* representa o primeiro elemento e o parâmetro *b* representa o segundo elemento. O comando acima irá ordenar o array de números de forma crescente.
+
+A função para ordenar também poderá ser escrita assim:
+```javascript
+numeros.sort((a, b) => a - b);
+```
+
+Isso para ordenar de forma **CRESCENTE**!
+
+Caso deseje ordenar de forma **DECRESCENTE**, utiliza-se o seguinte comando:
+```javascript
+numeros.sort((a, b) => b - a);
+```
 
 ## Propriedades dos Arrays
 
@@ -157,6 +266,23 @@ O resultado será um array contendo todos os elementos dos dois arrays, sendo qu
 
 **["Maçã", "Laranja", "Banana", "Tomate", "Cenoura", "Cebola"];**
 
+### ***indexOf()***
+O método indexOf() retorna a primeira posição do caractere indicado no parâmetro. Considere o exemplo abaixo:
+```javascript
+const fruta = "banana";
+const primeiraLetraA = fruta.indexOf("a");
+alert(primeiraLetraA);
+```
+Assim, o valor que deverá ter na *const* **primeiraLetraA** será **1**.
+
+Porém, para o usuário saber exatamente a posição, temos que considerar o fato de que o array inicia na posição 0. Portanto, o valor que deverá ser apresentado para o usuário, pensando na sua melhor compreensão, deverá ser acrescido com um valor. Ou seja, no caso acima, o valor que deverá ser apresentado para o usuário deverá ser **1 + 1 = 2**. O código deverá ficar da seguinte forma:
+```javascript
+const fruta = "banana";
+const primeiraLetraA = fruta.indexOf("a") + 1;
+alert(primeiraLetraA);
+```
+Assim, o valor que deverá ter na *const* **primeiraLetraA** sera **2**.
+
 ### ***lastIndexOf()***
 Assim como o método indexOf(), aqui adiciona-se a palavra *last*. Ou seja, retornará a última posição do caractere indicado no parâmetro para a utilização deste método. Considere o exemplo abaixo:
 ```javascript
@@ -164,6 +290,13 @@ const fruta = "banana";
 const ultimaLetraA = fruta.lastIndexOf("a");
 ```
 Assim, o valor que deverá ter na *const* **ultimaLetraA** será **5**.
+
+Porém, da mesma forma como no método indexOf(), o valor que retornará será a posição do Array, que começa na posição **0**. Portanto, pensando na melhor compreensão do usuário, sempre será acrescido com um valor. Ou seja, no caso acima, o valor que deverá ser apresentado para o usuário deverá ser **5 + 1 = 6**. O código deverá ficar da seguinte forma:
+```javascript
+const fruta = "banana";
+const ultimaLetraA = fruta.lastIndexOf("a") + 1;
+```
+Assim, o valor que deverá ter na *const* **ultimaLetraA** sera **6**, pois corresponde com a sexta letra da palavra.
 
 ### ***search()***;
 Usa-se passando um parâmetro para fazer busca, mas com um pedaço de texto para buscar em uma frase. Considere o exemplo abaixo:
