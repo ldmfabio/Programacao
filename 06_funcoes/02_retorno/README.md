@@ -32,7 +32,7 @@ function situacaoAluno(mediaAluno, mediaAprovacao) {
     }
 }
 let resposta = situacaoAluno(10, 6);
-alert(`${resposta[0]}, ${resposta[1}`);
+alert(`${resposta[0]}, ${resposta[1]}`);
 ```
 
 > **Alerta de spoiler**: mais adiante, veremos que é possível retornar mais de um valor utilizando objetos (_objetos em JavaScript ainda serão abordados na disciplina_).
