@@ -13,6 +13,8 @@ Clique abaixo e acesse diretamente o conteúdo desejado:
 ## Funções com parâmetros opcionais
 As funções com parâmetros opcionais são funções que recebem parâmetros que não são obrigatórios. Para isso, utilizamos a palavra reservada _function_ e, na sequência, os parâmetros da função e o corpo da função. Veja o exemplo: [EXEMPLO19.HTML](exemplos/exemplo19.html)
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 function situacaoAluno(mediaAluno, mediaAprovacao = 6) {
@@ -25,11 +27,30 @@ function situacaoAluno(mediaAluno, mediaAprovacao = 6) {
 let resposta = situacaoAluno(10);
 alert(resposta);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+def situacaoAluno(mediaAluno, mediaAprovacao=6):
+    if mediaAluno >= mediaAprovacao:
+        return "Aprovado"
+    else:
+        return "Reprovado"
+
+resposta = situacaoAluno(10)
+print(resposta)
+```
+</details>
 
 Note que a função _situacaoAluno()_ recebe dois parâmetros, que são a média do aluno e a média para aprovação. O segundo parâmetro, que é a média para aprovação, é opcional. Assim, se o segundo parâmetro não for passado, a média para aprovação será 6. Por fim, a variável _resposta_ é exibida na caixa de diálogo.
 
 ## Funções com parâmetros variáveis
 As funções com parâmetros variáveis são funções que recebem uma quantidade variável de parâmetros. Para isso, utilizamos a palavra reservada _function_ e, na sequência, os parâmetros da função e o corpo da função. Veja o exemplo: [EXEMPLO20.HTML](exemplos/exemplo20.html)
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 function soma() {
@@ -42,11 +63,30 @@ function soma() {
 let resultado = soma(10, 20, 30, 40, 50);
 alert(resultado);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+def soma(*args):
+    resultado = 0
+    for num in args:
+        resultado += num
+    return resultado
+
+resultado = soma(10, 20, 30, 40, 50)
+print(resultado)
+```
+</details>
 
 Note que a função _soma()_ não recebe nenhum parâmetro. Porém, dentro da função, é utilizado o objeto _arguments_, que é um objeto que contém todos os parâmetros passados para a função. Assim, a função _soma()_ percorre todos os parâmetros passados para a função e soma todos os valores. Por fim, o resultado da soma é atribuído à variável _resultado_ e, por fim, a variável _resultado_ é exibida na caixa de diálogo.
 
 ## Funções com parâmetros nomeados
 As funções com parâmetros nomeados são funções que recebem parâmetros nomeados. Para isso, utilizamos a palavra reservada _function_ e, na sequência, os parâmetros da função e o corpo da função. Veja o exemplo: [EXEMPLO21.HTML](exemplos/exemplo21.html)
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 function situacaoAluno({ mediaAluno, mediaAprovacao }) {
@@ -59,11 +99,30 @@ function situacaoAluno({ mediaAluno, mediaAprovacao }) {
 let resposta = situacaoAluno({ mediaAluno: 10, mediaAprovacao: 6 });
 alert(resposta);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+def situacaoAluno(mediaAluno, mediaAprovacao):
+    if mediaAluno >= mediaAprovacao:
+        return "Aprovado"
+    else:
+        return "Reprovado"
+
+resposta = situacaoAluno(mediaAluno=10, mediaAprovacao=6)
+print(resposta)
+```
+</details>
 
 Note que a função _situacaoAluno()_ recebe um parâmetro, que é um objeto com os parâmetros _mediaAluno_ e _mediaAprovacao_. Assim, ao chamar a função, passamos um objeto com os parâmetros _mediaAluno_ e _mediaAprovacao_. Por fim, a variável _resposta_ é exibida na caixa de diálogo.
 
 ## Funções com parâmetros nomeados e opcionais
 As funções com parâmetros nomeados e opcionais são funções que recebem parâmetros nomeados e opcionais. Para isso, utilizamos a palavra reservada _function_ e, na sequência, os parâmetros da função e o corpo da função. Veja o exemplo: [EXEMPLO22.HTML](exemplos/exemplo22.html)
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 function situacaoAluno({ mediaAluno, mediaAprovacao = 6 }) {
@@ -76,11 +135,30 @@ function situacaoAluno({ mediaAluno, mediaAprovacao = 6 }) {
 let resposta = situacaoAluno({ mediaAluno: 10 });
 alert(resposta);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+def situacaoAluno(mediaAluno, mediaAprovacao=6):
+    if mediaAluno >= mediaAprovacao:
+        return "Aprovado"
+    else:
+        return "Reprovado"
+
+resposta = situacaoAluno(mediaAluno=10)
+print(resposta)
+```
+</details>
 
 Note que a função _situacaoAluno()_ recebe um parâmetro, que é um objeto com os parâmetros _mediaAluno_ e _mediaAprovacao_. O segundo parâmetro, que é a média para aprovação, é opcional. Assim, se o segundo parâmetro não for passado, a média para aprovação será 6. Por fim, a variável _resposta_ é exibida na caixa de diálogo.
 
 ## Funções com parâmetros nomeados e variáveis
 As funções com parâmetros nomeados e variáveis são funções que recebem parâmetros nomeados e variáveis. Para isso, utilizamos a palavra reservada _function_ e, na sequência, os parâmetros da função e o corpo da função. Veja o exemplo: [EXEMPLO23.HTML](exemplos/exemplo23.html)
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 function soma({ a, b, ...resto }) {
@@ -93,6 +171,22 @@ function soma({ a, b, ...resto }) {
 let resultado = soma({ a: 10, b: 20, c: 30, d: 40, e: 50 });
 alert(resultado);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+def soma(a, b, **resto):
+    resultado = a + b
+    for valor in resto.values():
+        resultado += valor
+    return resultado
+
+resultado = soma(a=10, b=20, c=30, d=40, e=50)
+print(resultado)
+```
+</details>
 
 Note que a função _soma()_ recebe um parâmetro, que é um objeto com os parâmetros _a_ e _b_. O parâmetro _resto_ é um parâmetro variável, que recebe todos os parâmetros passados para a função. Assim, a função _soma()_ percorre todos os parâmetros passados para a função e soma todos os valores. Por fim, o resultado da soma é atribuído à variável _resultado_ e, por fim, a variável _resultado_ é exibida na caixa de diálogo.
 

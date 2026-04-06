@@ -60,6 +60,9 @@ _**Exemplo 1**: Peça para o usuário informar o seu ano de nascimento. Caso o a
 
 O código necessário para resolver o problema descrito acima é o seguinte:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <meta charset="UTF-8">
 <script>
@@ -75,6 +78,22 @@ O código necessário para resolver o problema descrito acima é o seguinte:
 </script>
 
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Entrada
+anoNascimento = int(input("Informe o seu ano de nascimento: "))
+
+# Processamento
+mensagemFinal = "Viu o Bug do Milênio" if anoNascimento < 2000 else "Não viu o Bug do Milênio"
+
+# Saída
+print(mensagemFinal)
+```
+</details>
 
 _**Exemplo 2:** Colocando um nível a mais de complexidade no problema anteriormente descrito, considere que:_
 - _Se o usuário nasceu <u>antes do ano 1900</u>, o programa deverá apresentar a mensagem: **Você é Imortal!**_
@@ -82,6 +101,9 @@ _**Exemplo 2:** Colocando um nível a mais de complexidade no problema anteriorm
 - _Se o usuário <u>nasceu após o ano 2000</u>, o programa deverá apresentar a mensagem: **Não viu o Bug do Milênio.**_
 
 O código necessário para resolver o problema descrito acima é o seguinte:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 <meta charset="UTF-8">
@@ -97,6 +119,22 @@ O código necessário para resolver o problema descrito acima é o seguinte:
     document.write(mensagemFinal);
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Entrada
+anoNascimento = int(input("Informe o seu ano de nascimento: "))
+
+# Processamento
+mensagemFinal = "Você é Imortal!" if anoNascimento < 1900 else ("Viu o Bug do Milênio" if anoNascimento < 2000 else "Não viu o Bug do Milênio")
+
+# Saída
+print(mensagemFinal)
+```
+</details>
 
 ## **Bóra praticar...**
 

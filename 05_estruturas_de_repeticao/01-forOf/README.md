@@ -25,9 +25,23 @@ No contexto das estruturas de repetição, temos um recurso super valioso, que �
 O que vimos anteriormente, no assunto de [Vetores / Arrays](../../04_arrays/README.md) é de grande relevância e ter aprendido o conceito de Arrays é requisito fundamental para começarmos os estudos sobre as estruturas de repetição.
 
 Consideremos novamente o nosso exemplo abordado anteriormente, sobre a lista de compras:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+```
+</details>
+
 Este código construirá a seguinte estrutura:
 | Posição | Produto |
 | :---: | :--- |
@@ -47,12 +61,28 @@ Ou seja, o conteúdo da posição **0 será "Acerola"**, o conteúdo da posiçã
 Para que possamos escrever o conteúdo de todas as posições do Array para que o usuário possa saber o que possui na sua lista de compras, por exemplo, devemos utilizar as estruturas de repetição. Nesse caso, ***for of***.
 
 O código completo para exibir o conteúdo do array/lista para o usuário, será o seguinte:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 for (let item of listaCompras) {
     document.write(item);
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+for item in listaCompras:
+    print(item)
+```
+</details>
+
 *Caso queira, é possível copiar o código acima e colar no site do PythonTutor para JavaScript, no link [https://pythontutor.com/javascript.html#mode=edit](https://pythontutor.com/javascript.html#mode=edit), substituindo o document.write por console.log. Após colar o código, clique em Visualize Execution e o site lhe mostrará todos os Steps - passos - que serão executados pelo programa. Clique em Next e acompanhe as instruções linha a linha.*
 
 A estrutura de repetição ***(for of)*** começará a ler o conteúdo de cada posição do array *listaCompras*, e o que está na primeira posição **(posição 0)** será atribuído para a ***let item***.
@@ -70,12 +100,28 @@ O arquivo que contém o exemplo é o [exemplo01_inc.html](exemplo01_inc.html).
 Para deixarmos o conteúdo de forma organizada, podemos escrever o contéudo em forma de ítens de uma lista não-ordenada.
 
 Neste caso, o código seria:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 for (let item of listaCompras) {
     document.write(`<li>${item}</li>`);
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+for item in listaCompras:
+    print(f"<li>{item}</li>")
+```
+</details>
+
 O resultado será o seguinte:
 
 ![document.write Completo](exemplo01_comp.png)

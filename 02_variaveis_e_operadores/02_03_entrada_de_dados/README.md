@@ -38,17 +38,34 @@ Veja abaixo a diferença entre elas.
 Uma _const_, como o próprio nome diz, é **constante**, ou seja, o dado atribuído para uma constante nunca poderá ser alterado no decorrer do programa.
 
 Um exemplo de código usando _const_:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const diasDaSemana = 7;
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+diasDaSemana = 7
+```
+</details>
 > No código acima, foi criado, na memória do computador, um espaço para alocar este dado. Após a execução do programa este dado será apagado da memória do computador e não estará mais acessível.
 
 ### <u>**Variáveis</u>**
 Uma variável (_let_) é uma caixinha criada na memória do computador, que é passível de alterações, obedecendo o dado que o desenvolvedor atribuir para a _let_ durante a execução do programa.
 
 Um exemplo de código que use a _let_:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     let salarioMinimo = 0;
@@ -57,6 +74,18 @@ Um exemplo de código que use a _let_:
     salarioMinimo = salarioMinimo + reajusteSalarioMinimo;
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+salarioMinimo = 0
+salarioMinimo = 1212
+reajusteSalarioMinimo = salarioMinimo * 0.743
+salarioMinimo = salarioMinimo + reajusteSalarioMinimo
+```
+</details>
 
 _O código acima, que não está nada otimizado, foi desenvolvido apenas para demonstrar que <u>o valor da _let_ ***salarioMinimo*** pôde ser alterado durante a execução do programa.</u>_
 
@@ -67,12 +96,26 @@ Agora que sabemos que existem as _constantes_ **(const)** e _variáveis_ **(let)
 Como já sabemos apresentar dados para o usuário, agora vamos <u>receber</u> dados fornecidos pelo usuário. O recurso prompt() faz com que seja exibido uma caixa com um texto e um espaço para digitação.
 
 Para brincar com o prompt(), crie um novo arquivo, chamado ***<u>ex04.html</u>***. O código que deverá conter neste arquivo é:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const nome = prompt("Qual o seu nome?");
     alert(nome);
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+nome = input("Qual o seu nome?")
+print(nome)
+```
+</details>
 
 > No código acima, ao criarmos a _const_ nome já será atribuído valor para essa "_caixinha_". O valor será o que o usuário digitar na caixa que foi apresentada, conforme demonstrado na figura abaixo. 
 
@@ -90,6 +133,9 @@ Vamos imaginar um programa que peça para que o usuário informe apenas três da
 
 Crie o arquivo ***<u>ex05.html</u>***. O código necessário que o arquivo deverá conter será o seguinte:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const nome = prompt(`Informe o seu nome:`);
@@ -99,6 +145,19 @@ Crie o arquivo ***<u>ex05.html</u>***. O código necessário que o arquivo dever
     document.write(`O seu nome completo é ${nomeCompleto} e você possui ${idade} anos.`);
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+nome = input("Informe o seu nome:")
+sobrenome = input("Informe o seu sobrenome:")
+idade = input("Informe a sua idade:")
+nomeCompleto = nome + " " + sobrenome
+print(f"O seu nome completo é {nomeCompleto} e você possui {idade} anos.")
+```
+</details>
 
 > No código acima foram criadas três constantes e, usando o método *prompt()*, foram atribuídos os seus respectivos valores. **Observe que as constantes possuem nomes de acordo com a sua utilidade.**
 > Após a atribuição de valor para as constantes, foi criada uma nova _const_, nomeCompleto, que recebeu a ***concatenação*** dos valores contidos nas constantes **nome** e **sobrenome**.
@@ -109,6 +168,10 @@ Até então nós trabalhamos apenas com _const_, porém vamos fazer um exemplo c
 Considere que um programa solicitará ao usuário que ele informe o ano atual e o ano de nascimento. Ao final, o programa informará qual é a idade do usuário.
 
 Para tal, crie o arquivo ***<u>ex06.html</u>***. Neste arquivo, insira o seguinte código:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     let idade = 0;
@@ -118,6 +181,19 @@ Para tal, crie o arquivo ***<u>ex06.html</u>***. Neste arquivo, insira o seguint
     document.write(`Neste ano você completará ou já completou ${idade} anos.`);
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+idade = 0
+anoAtual = int(input("Informe o ano atual:"))
+anoNascimento = int(input("Informe o ano do seu nascimento:"))
+idade = anoAtual - anoNascimento
+print(f"Neste ano você completará ou já completou {idade} anos.")
+```
+</details>
 
 > No código acima foram criadas uma variável _let_ duas variáveis _constantes_, sendo que a idade foi inicializada com valor 0, para posteriormente ser atribuída a ela o resultado da diferença dos outros valores que foram atribuídos para as duas constantes, uma para o ano atual e a outra para o ano de nascimento do usuário. Os dados relacionados ao ano atual e ao ano de nascimento serão fornecidos pelo usuário. A próxima linha fará uma operação matemática (subtração) para calcular a diferença entre os dois valores, obtendo a idade do usuário. No último comando utilizamos o recurso document.write() para escrever na tela o resultado da operação matemática, concatenando-o com um outro texto, para deixar a mensagem mais amigável.
 

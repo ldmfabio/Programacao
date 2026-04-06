@@ -3,11 +3,32 @@
 # Funções autoexecutáveis
 As funções autoexecutáveis são funções que são executadas automaticamente, sem a necessidade de serem chamadas. Para isso, utilizamos a palavra reservada _function_ e, na sequência, os parâmetros da função e o corpo da função. Veja o exemplo: [EXEMPLO17.HTML](../exemplos/exemplo17.html)
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 (function() {
     alert("Olá, mundo!");
 })();
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Em Python, funções autoexecutáveis podem ser simuladas assim:
+(lambda: print("Olá, mundo!"))()
+
+# Ou de forma mais comum, usando uma função normal:
+def main():
+    print("Olá, mundo!")
+
+if __name__ == "__main__":
+    main()
+```
+</details>
+
 Note que a função é definida entre parênteses e, na sequência, há dois parênteses. Isso indica que a função será executada automaticamente, sem a necessidade de ser chamada.
 
 # [Avançar - Funções Recursivas](../06_recursivas/README.md)

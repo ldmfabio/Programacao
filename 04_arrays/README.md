@@ -29,19 +29,61 @@ Para recuperar os itens de uma lista, utilizamos os arrays, indicando, numericam
 ***Guarde esta tabela como referência para os exemplos seguintes.***
 
 Para armazenar os dados descritos acima em um array, usando JavaScript (JS), é necessário o seguinte código:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+```
+</details>
+
 Para recuperar o conteúdo da primeira posição da lista, é necessário o seguinte código:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras[0];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras[0]
+```
+</details>
+
 O conteúdo retornado será **"Acerola"**.
 
 Já para recuperar o conteúdo da segunda posição da lista, o código será:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras[1];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras[1]
+```
+</details>
+
 O conteúdo retornado será, portanto, **"Banana"**.
 
 ## Métodos para manipulação de Arrays
@@ -53,21 +95,63 @@ O conteúdo retornado será, portanto, **"Banana"**.
 | unshift() | Adiciona um elemento no início do array e desloca os elementos para uma posição abaixo. |
 
 Portanto, o código para adicionar um item (tanto ao fim - *push()* - quanto no início - *unshift()* - do array), será, respectivamente:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.push("Melão");
 listaCompras.unshift("Abacaxi");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras.append("Melão")        # Adiciona no final
+listaCompras.insert(0, "Abacaxi")   # Adiciona no início
+```
+</details>
 
 Já para remover um item (tanto ao fim - *pop()* - quanto no início - *shift()* - do array), será, respectivamente:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.pop();
 listaCompras.shift();
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras.pop()      # Remove o último
+listaCompras.pop(0)     # Remove o primeiro
+```
+</details>
 
 Podemos também atribuir o valor de uma posição do array para uma const/let/var, usando o seguinte comando:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const primeiroItem = listaCompras[0];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+primeiroItem = listaCompras[0]
+```
+</details>
+
 Considerando os itens descritos na Tabela, o conteúdo da const primeiroItem será **"Acerola"**.
 
 Também existem alguns outros métodos que podem ser utilizados, tais quais:
@@ -95,9 +179,21 @@ Podemos usar dois ou três parâmetros no método splice(). Consideremos novamen
 
 * Um parâmetro:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.splice(2);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+del listaCompras[2:]  # Remove todos os elementos a partir da posição 2
+```
+</details>
 
 Com o método acima, o resultado da lista de compras será:
 
@@ -109,14 +205,39 @@ Afinal, o splice(2) fará com que todos os elementos à partir da posição 2 se
 
 Considere que a lista de compras voltou a ter o conteúdo original:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+```
+</details>
+
 E então o código abaixo será executado:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 listaCompras.splice(2, 1);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+del listaCompras[2]  # Remove 1 elemento na posição 2
+```
+</details>
 
 O resultado da lista de compras será:
 
@@ -128,14 +249,39 @@ Isso se deve ao fato de que, à partir da posição 2, foi removido 1 elemento, 
 
 Considere novamente que a lista de compras voltou a ter o conteúdo original:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+```
+</details>
+
 E então o código abaixo será executado:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 listaCompras.splice(2, 1, "Abacaxi");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras[2] = "Abacaxi"  # Substitui o elemento na posição 2
+```
+</details>
 
 O resultado da lista de compras será:
 
@@ -155,9 +301,21 @@ Ao invés do número 1, colocado como segundo parâmetro, poderia ser então uti
 
 Considerando que a instrução é a mesma:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.splice(2, 0, "Abacaxi");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras.insert(2, "Abacaxi")  # Insere na posição 2 sem remover
+```
+</details>
 
 O resultado da lista de compras será:
 
@@ -176,62 +334,168 @@ Para ordenar os elementos do array, existem métodos que ordenam os itens de for
 
 Entretanto, para ordenar um Array de números, não utiliza-se apenas o método sort() ou reverse().
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 numeros.sort();
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numeros.sort()  # Em Python, sort() ordena números corretamente
+```
+</details>
 
 O resultado será o seguinte:
 
 **[1, 10, 2, 3, 4, 5, 6, 7, 8, 9]**
 
 Portanto, para ordenar um Array de números, utiliza-se o seguinte comando:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 numeros.sort(function(a, b) {
     return a - b;
 });
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+numeros.sort()  # Ordena de forma crescente
+```
+</details>
+
 O parâmetro *a* representa o primeiro elemento e o parâmetro *b* representa o segundo elemento. O comando acima irá ordenar o array de números de forma crescente.
 
 A função para ordenar também poderá ser escrita assim:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 numeros.sort((a, b) => a - b);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+numeros.sort()  # Ordena de forma crescente
+```
+</details>
 
 Isso para ordenar de forma **CRESCENTE**!
 
 Caso deseje ordenar de forma **DECRESCENTE**, utiliza-se o seguinte comando:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 numeros.sort((a, b) => b - a);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+numeros.sort(reverse=True)  # Ordena de forma decrescente
+```
+</details>
 
 ## Propriedades dos Arrays
 
 Existem propriedades que podem ser acessadas após a criação dos arrays. Uma das mais importantes é a propriedade que retorna a quantidade de elementos do array (tamanho), que é a propriedade *length*.
 Ou seja, considerando o nosso array:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"];
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaCompras = ["Acerola", "Banana", "Laranja", "Melancia"]
+```
+</details>
 
 Ao executarmos o comando:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.length;
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+len(listaCompras)
+```
+</details>
+
 O conteúdo que retornará será **4**, que corresponde aos elementos que contém - que são as quatro frutas.
 
 Alguns comandos úteis para retornar os dados do array em uma string (texto), são os:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.join();
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+",".join(listaCompras)
+```
+</details>
 O retorno será o seguinte:
 
 **Acerola,Banana,Laranja,Melancia**
 
 É possível passarmos um parâmetro ao usar o método **join()**, como no exemplo abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 listaCompras.join(" - ");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+" - ".join(listaCompras)
+```
+</details>
+
 Ou seja, adicionamos ***espaço + hífen + espaço*** entre cada elemento do array para formar a string/texto de retorno, que será:
 **Acerola - Banana - Laranja - Melancia**
 
@@ -241,9 +505,22 @@ Ou seja, adicionamos ***espaço + hífen + espaço*** entre cada elemento do arr
 Você sabia que também dá para soletrar um texto usando JS?
 
 Existe o método Array.from(texto) que separa as letras de uma string. Veja o código abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 Array.from("Soletrando");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+list("Soletrando")
+```
+</details>
 Ao executar esta instrução, o retorno será:
 
 **["S", "o", "l", "e", "t", "r", "a", "n", "d", "o"]**
@@ -259,43 +536,118 @@ Imagine os dois arrays abaixo:
 * *const* **vegetais** = ["Tomate", "Cenoura", "Cebola"];
 
 Para unir o conteúdo dos dois em apenas um array, é possível usar o método concat(), conforme descrito abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const listaGeral = frutas.concat(vegetais);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+listaGeral = frutas + vegetais
+```
+</details>
 O resultado será um array contendo todos os elementos dos dois arrays, sendo que nas primeiras posições estarão os elementos do array frutas. O conteúdo do array **listaGeral** será:
 
 **["Maçã", "Laranja", "Banana", "Tomate", "Cenoura", "Cebola"];**
 
 ### ***indexOf()***
 O método indexOf() retorna a primeira posição do caractere indicado no parâmetro. Considere o exemplo abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const fruta = "banana";
 const primeiraLetraA = fruta.indexOf("a");
 alert(primeiraLetraA);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+fruta = "banana"
+primeiraLetraA = fruta.index("a")
+print(primeiraLetraA)
+```
+</details>
+
 Assim, o valor que deverá ter na *const* **primeiraLetraA** será **1**.
 
 Porém, para o usuário saber exatamente a posição, temos que considerar o fato de que o array inicia na posição 0. Portanto, o valor que deverá ser apresentado para o usuário, pensando na sua melhor compreensão, deverá ser acrescido com um valor. Ou seja, no caso acima, o valor que deverá ser apresentado para o usuário deverá ser **1 + 1 = 2**. O código deverá ficar da seguinte forma:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const fruta = "banana";
 const primeiraLetraA = fruta.indexOf("a") + 1;
 alert(primeiraLetraA);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+fruta = "banana"
+primeiraLetraA = fruta.index("a") + 1
+print(primeiraLetraA)
+```
+</details>
+
 Assim, o valor que deverá ter na *const* **primeiraLetraA** sera **2**.
 
 ### ***lastIndexOf()***
 Assim como o método indexOf(), aqui adiciona-se a palavra *last*. Ou seja, retornará a última posição do caractere indicado no parâmetro para a utilização deste método. Considere o exemplo abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const fruta = "banana";
 const ultimaLetraA = fruta.lastIndexOf("a");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+fruta = "banana"
+ultimaLetraA = fruta.rfind("a")
+```
+</details>
+
 Assim, o valor que deverá ter na *const* **ultimaLetraA** será **5**.
 
 Porém, da mesma forma como no método indexOf(), o valor que retornará será a posição do Array, que começa na posição **0**. Portanto, pensando na melhor compreensão do usuário, sempre será acrescido com um valor. Ou seja, no caso acima, o valor que deverá ser apresentado para o usuário deverá ser **5 + 1 = 6**. O código deverá ficar da seguinte forma:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 const fruta = "banana";
 const ultimaLetraA = fruta.lastIndexOf("a") + 1;
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+fruta = "banana"
+ultimaLetraA = fruta.rfind("a") + 1
+```
+</details>
+
 Assim, o valor que deverá ter na *const* **ultimaLetraA** sera **6**, pois corresponde com a sexta letra da palavra.
 
 ### ***search()***;

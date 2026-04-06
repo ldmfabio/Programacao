@@ -20,6 +20,9 @@
 **Sobre a utilização**
 * O comando switch inicia pela definição da variável/constante que escolhe a condição a ser executada. Cada instrução deve conter um valor de comparação (seguida pelos dois pontos ":"), como no exemplo abaixo.
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <meta charset="UTF-8">
 <script>
@@ -34,6 +37,20 @@ switch (mesDoAno) {
 }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+mesDoAno = 1
+match mesDoAno:
+    case 1:
+        print("Janeiro")
+    case 2:
+        print("Fevereiro")
+```
+</details>
  _Os comandos sempre devem ser finalizados por_
  ```javascript
  break;
@@ -46,6 +63,9 @@ Caso o comando _break;_ não seja incluído logo após o comando que será execu
 > _O comando break; para a execução do switch...case, indo para a próxima linha logo após o término das instruções que fazem parte do block switch...case. Ou seja, o programa continua sendo executado, apenas o switch...case que finaliza com o comando break;_
 
 Outro recurso do **_switch...case_** que vale ser mencionado é a utilização da opção *default*. Esta opção é a opção padrão e o que houver de instrução nela será executado quando as comparações realizadas não forem validadas. Por exemplo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 <meta charset="UTF-8">
@@ -64,10 +84,29 @@ switch (diaDaSemana) {
 }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+diaDaSemana = "domingo"
+match diaDaSemana:
+    case "sábado":
+        print("Dia de folga!")
+    case "domingo":
+        print("Dia de folga!")
+    case _:
+        print("Dia de trabalho!")
+```
+</details>
 
 Nesse caso, o resultado será **"Dia de folga!"**. Porém, caso o valor da _const_ **_diaDaSemana_** fosse qualquer coisa diferente de _sábado_ ou _domingo_, por exemplo, o programa executaria a opção **default**.
 
 Ainda, considerando o exemplo anterior, é possível que otimizemos o código. Observe que existem dois dias de folga (sábado e domingo). Portanto, como ou um ou outro dia são de folga, e diferente deles é trabalho, podemos otimizar da seguinte forma:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 <meta charset="UTF-8">
@@ -84,6 +123,20 @@ switch (diaDaSemana) {
 }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+diaDaSemana = "segunda"
+match diaDaSemana:
+    case "sábado" | "domingo":
+        print("Dia de Folga!")
+    case _:
+        print("Dia de Trabalho!")
+```
+</details>
 
 Esta otimização é equivalente com a utilização do operador **OU**, que refere a utilização dos caracteres " || ".
 > **_A principal vantagem do switch...case é a facilidade para compreender a sua estrutura, sendo extremamente intuitivo._**

@@ -28,11 +28,25 @@ Para já, crie o arquivo ***<u>ex01.html</u>***. Neste arquivo trabalharemos ape
 Este comando (ou método) fará com que o browser apresente uma mensagem de alerta, que desabilitará as demais funções até que o usuário feche a mensagem apresentada.
 
 Copie e cole o seguinte código no seu arquivo **ex01.html**:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     alert("Hello World!");
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+print("Hello World!")
+```
+</details>
+
 
 Após, siga as seguintes etapas:
 - Clique com o botão direito no arquivo **ex01.html**

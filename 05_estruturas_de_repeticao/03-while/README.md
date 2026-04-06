@@ -13,21 +13,53 @@ O laço de repetição **while** é um laço de repetição com variável de con
 
 A sintaxe do laço **while** é a seguinte:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 while (condicao) {
     // código a ser executado
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+while condicao:
+    # código a ser executado
+```
+</details>
 
 Uma outra sintaxe, ainda utilizando o conceito do _faça enquanto_ (do while), é a seguinte:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 do {
     // código a ser executado
 } while (condicao);
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Python não tem do-while, mas pode simular assim:
+while True:
+    # código a ser executado
+    if not condicao:
+        break
+```
+</details>
 
 Vamos exemplificar com uma condição estabelecida, ainda com pouca complexidade, para que possamos entender o funcionamento do laço de repetição **while**.  Veja o exemplo abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 let contador = 0;
@@ -36,10 +68,25 @@ while (contador < 5) {
     contador++;
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+```
+</details>
 
 O código acima irá imprimir no console os números de 0 a 4. Isso acontece porque a variável `contador` é inicializada com o valor 0. A condição do laço é `contador < 5`, ou seja, enquanto o valor da variável `contador` for menor que 5, o laço será executado. A cada execução do laço, o valor da variável `contador` é incrementado em 1. Quando o valor da variável `contador` for igual a 5, a condição do laço será falsa e o laço será encerrado.
 
 O laço **while** é muito útil quando não sabemos quantas vezes o laço será executado. Por exemplo, se quisermos que o usuário digite um número entre 1 e 10, podemos utilizar um laço **while** para garantir que o usuário digite um número válido. Veja o exemplo abaixo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 let numero = Number(prompt("Digite um número entre 1 e 10:"));
@@ -47,6 +94,17 @@ while (numero < 1 || numero > 10) {
     numero = Number(prompt("Digite um número entre 1 e 10:"));
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+numero = int(input("Digite um número entre 1 e 10:"))
+while numero < 1 or numero > 10:
+    numero = int(input("Digite um número entre 1 e 10:"))
+```
+</details>
 
 O código acima irá solicitar que o usuário digite um número entre 1 e 10. Caso o usuário digite um número menor que 1 ou maior que 10, o laço será executado novamente, solicitando que o usuário digite um número válido. O laço será executado até que o usuário digite um número válido.
 
@@ -62,15 +120,32 @@ Por outro lado, se o usuário ainda não inseriu nenhum dado, o mais indicado é
 
 Veja a diferença na prática:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 let genero = "F";
 while (genero != "F" && genero != "M") {
     genero = prompt(`Informe o gênero (M/F): `).toUpperCase();
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+genero = "F"
+while genero != "F" and genero != "M":
+    genero = input("Informe o gênero (M/F): ").upper()
+```
+</details>
 > Neste exemplo, o `while` será executado apenas se a condição não for atendida, ou seja, se o valor previamente atribuído para a let `genero` não for "F" ou "M".
 
 No exemplo seguinte, não foi atribuído nenhum valor ainda para a let `genero`. Assim, o `do while` será executado pelo menos uma vez, pois será a primeira vez que será atribuído valor para a let `genero` e, assim, o `do while` se encarregará de validar se o valor inserido atende a condição estabelecida.
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 let genero = "";
@@ -78,16 +153,49 @@ do {
     genero = prompt(`Informe o gênero (M/F): `).toUpperCase();
 } while (genero != "F" && genero != "M");
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+genero = ""
+while True:
+    genero = input("Informe o gênero (M/F): ").upper()
+    if genero == "F" or genero == "M":
+        break
+```
+</details>
 
 #### **ATENÇÃO!**
 
 > O que não pode ocorrer é o seguinte código:
-> ```javascript
-> let genero = "F";
-> do {
->     genero = prompt(`Informe o gênero (M/F): `).toUpperCase();
-> } while (genero != "F" && genero != "M");
-> ```
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
+```javascript
+let genero = "F";
+do {
+    genero = prompt(`Informe o gênero (M/F): `).toUpperCase();
+} while (genero != "F" && genero != "M");
+```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Este código está incorreto, pois já há um valor válido atribuído
+genero = "F"
+while True:
+    genero = input("Informe o gênero (M/F): ").upper()
+    if genero == "F" or genero == "M":
+        break
+# O valor "F" já era válido, mas foi desconsiderado
+```
+</details>
+
 > *Este código está incorreto, pois já há um valor atribuído para a let `genero` e, mesmo assim, o `do while` será executado, desconsiderando o valor já atribuído para a let `genero`.*
 
 Todo o conteúdo que já trabalhamos até aqui na disciplina de Programação será aplicado ao trabalharmos com estruturas de repetição.

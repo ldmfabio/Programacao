@@ -28,6 +28,10 @@ No JavaScript nós podemos comentar apenas uma linha ou, então, comentar um blo
 Acompanhe os exemplos abaixo, porém desconsidere a complexidade do código.
 
 **Exemplo 1: Instruções do Professor e Cálculo de Idade**
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     //Problema: Peça para o usuário informar o ano em que nasceu e calcule a idade atual do usuário.
@@ -42,10 +46,34 @@ Acompanhe os exemplos abaixo, porém desconsidere a complexidade do código.
     //Na linha acima, usamos o método document.write() para escrever uma mensagem para o usuário, concatenando com as informações do ano atual e da idade
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Problema: Peça para o usuário informar o ano em que nasceu e calcule a idade atual do usuário.
+
+from datetime import datetime
+
+anoNascimento = int(input("Informe o ano que nasceu:"))
+# Na linha acima, o usuário informará o ano em que nasceu e o valor será convertido para inteiro
+anoAtual = datetime.now().year
+# Na linha acima, capturamos o ano completo usando datetime
+idade = anoAtual - anoNascimento
+# Na linha acima, fazemos uma subtração do ano atual pelo ano do nascimento
+print(f"Em {anoAtual} você fez ou fará {idade} anos")
+# Na linha acima, escrevemos uma mensagem para o usuário
+```
+</details>
 
 > Note que usamos a ***//*** (barra-barra juntas) para identificar aquela linha como sendo um comentário e, assim, não sendo interpretada pelo browser. Ela será "apenas" uma observação, que, neste caso, explica a utilidade de cada linha do código que desenvolvemos. A primeira linha do programa, inclusive, é um comentário que serviu de orientação sobre o que deveria ser feito neste programa.
 
 **Exemplo 2: Comentando em bloco**
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     //Problema: Cor Preferida
@@ -71,6 +99,36 @@ Acompanhe os exemplos abaixo, porém desconsidere a complexidade do código.
     //Aqui, foi escrita uma mensagem na tela, concatenando com os nomes de todas as cores informadas, indicando qual foi a cor preferida do usuário, também usando concatenação de strings para mostrar o nome da cor preferida.
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+# Problema: Cor Preferida
+"""
+Peça para o usuário informar três cores, sendo uma de cada vez. 
+Após, pergunte ao usuário qual a cor preferida dentre as que informou.
+"""
+
+cor1 = input("Informe uma cor:")
+cor2 = input("Informe outra cor:")
+cor3 = input("Informe mais uma cor:")
+"""
+Nas linhas acima ocorreu o seguinte:
+- cor1 recebeu o nome de uma cor
+- cor2 recebeu o nome de outra cor
+- cor3 foi a última cor informada pelo usuário
+Agora, o sistema possui três nomes de cores diferentes, armazenados em memória
+"""
+
+preferida = input(f"Qual a sua cor preferida? {cor1}, {cor2} ou {cor3}?")
+# Na linha acima o usuário informou qual foi a cor preferida
+
+print(f"Dentre as cores {cor1}, {cor2} e {cor3}, a cor preferida do usuário é a {preferida}.")
+# Aqui, foi escrita uma mensagem na tela
+```
+</details>
 
 Viram a utilidade dos _comentários_? Espero que tenham compreendido e adotem essa prática para quando considerarem necessário, seja para deixar alguma anotação sobre o que desenvolveram e precisam lembrar depois, sobre onde pararam de programar e o que ainda está pendente ou, quem sabe, pensando em futuras manutenções no programa que estão desenvolvendo.
 

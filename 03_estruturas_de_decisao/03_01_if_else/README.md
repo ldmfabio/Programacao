@@ -14,15 +14,31 @@ Nem todo _if_ tem um _else_, mas todo _if_ é baseado em uma condição. Dizemos
 
 Um exemplo básico de _if_ é o seguinte:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
     if (condição) {
         // instruções que serão executadas caso a condição seja verdadeira
     }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+if condicao:
+    # instruções que serão executadas caso a condição seja verdadeira
+```
+</details>
 
 Para que o _if_ funcione corretamente, é necessário que a condição seja verdadeira, ou seja, que o resultado da condição seja _true_. Caso a condição seja falsa, ou seja, o resultado da condição seja _false_, o programa não executará as instruções que estão dentro do bloco do _if_.
 
 Para que o programa execute uma ação caso a condição seja falsa, utilizamos o _else_.
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
     if (condição) {
@@ -31,6 +47,18 @@ Para que o programa execute uma ação caso a condição seja falsa, utilizamos 
         // instruções que serão executadas caso a condição seja falsa
     }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+if condicao:
+    # instruções que serão executadas caso a condição seja verdadeira
+else:
+    # instruções que serão executadas caso a condição seja falsa
+```
+</details>
 
 ### **Mas o que seriam condições verdadeiras e falsas?**
 
@@ -74,6 +102,9 @@ _Desenvolva um programa que peça para o usuário informar a sua idade e retorne
 
 _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](01_maioridade.html)._
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const idade = prompt("Informe a sua idade: ");
@@ -85,11 +116,28 @@ _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](01_
     }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+idade = int(input("Informe a sua idade: "))
+
+if idade >= 18:
+    print("Você já atingiu a maioridade!")
+else:
+    print("Você ainda não atingiu a maioridade!")
+```
+</details>
 
 ### **Saque Bancário**
 _Desenvolva um programa que peça para o usuário informar o valor que deseja sacar e retorne se o valor é maior que o saldo disponível na conta. Considere que o valor disponível em conta seja R$ 500,00._
 
 _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](02_saqueBancario.html)._
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 <script>
@@ -103,6 +151,21 @@ _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](02_
     }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+saldo = 500
+valorSaque = float(input("Informe o valor que deseja sacar: "))
+
+if valorSaque > saldo:
+    print("Saldo insuficiente!")
+else:
+    print("Saque realizado com sucesso!")
+```
+</details>
 
 #
 
@@ -111,6 +174,9 @@ Nestes exemplos acima haviam apenas duas possibilidades de resultado. Mas e se h
 Para isso, utilizamos o _else if_, que também podemos chamar de _if else aninhado_, pois aninha/agrupa todas as possibilidades de resultado em uma estrutura de decisão. Ou seja, se a primeira condição for falsa, o programa verifica a próxima condição, e assim sucessivamente até que uma condição seja verdadeira ou até que não hajam mais condições para serem verificadas.
 
 ## **Sintaxe básica if...else if...else**
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
     if (condição) {
@@ -121,6 +187,20 @@ Para isso, utilizamos o _else if_, que também podemos chamar de _if else aninha
         // instruções que serão executadas caso a condição seja falsa
     }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+if condicao:
+    # instruções que serão executadas caso a condição seja verdadeira
+elif condicao:
+    # instruções que serão executadas caso a condição seja verdadeira
+else:
+    # instruções que serão executadas caso a condição seja falsa
+```
+</details>
 
 Vamos então adicionar complexidade ao nosso exemplo do programa desenvolvido para identificar se o usuário atingiu a maioridade ou não. Consideremos validar se:
 - Ainda não atingiu a maioridade
@@ -131,6 +211,9 @@ Vamos então adicionar complexidade ao nosso exemplo do programa desenvolvido pa
 _Desenvolva um programa que peça para o usuário informar a sua idade e retorne se o usuário já atingiu a maioridade ou não ou talvez já tenha chego na terceira idade._
 
 _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](03_maioridade.html)._
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 <script>
@@ -145,6 +228,22 @@ _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](03_
     }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+idade = int(input("Informe a sua idade: "))
+
+if idade < 18:
+    print("Você ainda não atingiu a maioridade!")
+elif idade < 60:
+    print("Você já atingiu a maioridade!")
+else:
+    print("Você já está na terceira idade!")
+```
+</details>
 > Note que no exemplo acima, a primeira condição verifica se a idade é menor que 18, ou seja, se o usuário ainda não atingiu a maioridade. Caso a idade seja menor que 18, o programa não verifica as demais condições, pois já sabe que o usuário ainda não atingiu a maioridade.
 >
 > Na segunda possibilidade, o programa analisa se a idade é menor que 60, ou seja, se o usuário já atingiu a maioridade. Caso a idade seja menor que 60, o programa não verifica a última condição, pois já sabe que o usuário já atingiu a maioridade. Não é necessário, na segunda possibilidade - _else if (idade < 60)_ - também validar se a idade é maior que 18, pois esta condição só será validada se a primeira condição for falsa, ou seja, se a idade do usuário não for menor que 18. Caso a idade seja inferior a 18 anos, o programa não verifica a próxima condição e já finaliza a estrutura de decisão, pois encontrou uma condição verdadeira.
@@ -170,6 +269,9 @@ _- Idoso: acima de 60 anos_
 
 _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](04_categoriaIdade.html)._
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const idade = prompt("Informe a sua idade: ");
@@ -187,6 +289,26 @@ _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](04_
     }
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+idade = int(input("Informe a sua idade: "))
+
+if idade < 2:
+    print("Bebê!")
+elif idade < 11:
+    print("Criança!")
+elif idade < 18:
+    print("Adolescente!")
+elif idade < 60:
+    print("Adulto!")
+else:
+    print("Idoso!")
+```
+</details>
 
 > Note que, neste exemplo, a primeira condição verifica se a idade é menor que 2, ou seja, se o usuário é um bebê. Caso a idade seja menor que 2, o programa não verifica as demais condições, pois já sabe que o usuário é um bebê.
 >
@@ -209,6 +331,9 @@ _Desenvolva um programa que peça para o usuário informar se está chovendo ou 
 
 _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](05_estaChovendo.html)._
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
     const chuva = prompt(`Está chovendo? (Responda S-Sim, N-Não, T-Talvez)`).toUpperCase().trim();
     if (chuva == "S") {
@@ -224,6 +349,23 @@ _O código fonte deste programa pode ser acessado [**<u>clicando aqui</u>**](05_
         alert(`Opção Inválida - Responda S-Sim, N-Não ou T-Talvez!`);
     }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+chuva = input("Está chovendo? (Responda S-Sim, N-Não, T-Talvez)").upper().strip()
+if chuva == "S":
+    print("Leve o guarda-chuva!")
+elif chuva == "N":
+    print("Não precisa do guarda-chuva!")
+elif chuva == "T":
+    print("Bom levar o guarda-chuva!")
+else:
+    print("Opção Inválida - Responda S-Sim, N-Não ou T-Talvez!")
+```
+</details>
 > Neste exemplo, valida-se o dado informado pelo usuário, que deverá ser S, N ou T. Caso o usuário informe S, o programa informa que o usuário deve levar o guarda-chuva. Caso o usuário informe N, o programa informa que o usuário não precisa levar o guarda-chuva. Caso o usuário informe T, o programa aconselha o usuário a levar o guarda-chuva.
 >
 > Caso o usuário informe qualquer outra opção, o programa informa que a opção é inválida e solicita que o usuário informe uma das opções válidas.

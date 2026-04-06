@@ -19,6 +19,9 @@ Quando sabemos os tipos dos dados, podemos também identificar quais operações
 
 Em JavaScript há algumas **particularidades** que devemos abordar para que não fiquem dúvidas durante o desenvolvimento dos programas. Prestem atenção nas seguintes instruções abaixo envolvendo operações matemáticas. Crie o arquivo ***ex07.html*** e cole o código abaixo:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const valor = "30";
@@ -33,6 +36,24 @@ Em JavaScript há algumas **particularidades** que devemos abordar para que não
     document.write("O resultado da adição é " + adicao);
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+valor = "30"
+multiplicacao = int(valor) * 2
+print(f"O resultado da multiplicação é {multiplicacao}")  # Resultado: 60
+divisao = int(valor) / 2
+print(f"O resultado da divisão é {divisao}")  # Resultado: 15.0
+subtracao = int(valor) - 2
+print(f"O resultado da subtração é {subtracao}")  # Resultado: 28
+adicao = valor + "2"  # Em Python, concatena strings
+print(f"O resultado da adição é {adicao}")  # Resultado: 302
+print("O resultado da adição é " + adicao)
+```
+</details>
 
 Lembram que o sinal de adição **(+)** serve para _concatenar_ strings? Pois então, na linha onde se atribui um valor para a _const_ **soma**, o JavaScript entendeu que é para realizar uma _concatenação_. Nas demais linhas, todas as operações matemáticas são realizadas sem qualquer situação inesperada.
 
@@ -61,6 +82,9 @@ Um outro tipo, conforme abordado anteriormente, é o booleano. A variável será
 
 Note o código abaixo. Para entender melhor, crie o arquivo ***ex08.html*** e copie o código abaixo:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     const fruta = "Banana";
@@ -73,16 +97,49 @@ Note o código abaixo. Para entender melhor, crie o arquivo ***ex08.html*** e co
     console.log(typeof novoValor);
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+fruta = "Banana"
+preco = 3.50
+jaEhNoite = False
+novoValor = None
+print(type(fruta))   # <class 'str'>
+print(type(preco))   # <class 'float'>
+print(type(jaEhNoite))  # <class 'bool'>
+print(type(novoValor))  # <class 'NoneType'>
+```
+</details>
 
 Observe que a variável _novoValor_, no console, será impresso **undefined**. Isso ocorre pois não houve atribuição de valor para a variável e, com isso, não será possível definir o seu tipo.
 
 Também é possível validar se a variável é inteira ou decimal. note o código abaixo (Caso queira, crie o arquivo ***ex09.html***).
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 <script>
     console.log(Number.isInteger(30)); //Deverá retornar true
     console.log(Number.isInteger(30.3)); //Deverá retornar false
 </script>
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+print(isinstance(30, int))      # Deverá retornar True
+print(isinstance(30.3, int))    # Deverá retornar False
+# Ou usando float_value.is_integer()
+print((30.0).is_integer())      # True
+print((30.3).is_integer())      # False
+```
+</details>
 A primeira linha retornará _true_, pois o valor que está sendo validado é um valor inteiro. Já a segunda linha retornará _false_, pois o valor que está sendo validado não é inteiro, pois possui casas decimais.
 
 ## **Pronto! Agora vamos colocar em prática!**

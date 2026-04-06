@@ -10,6 +10,9 @@ Em JavaScript, um objeto é uma coleção de pares chave/valor. A chave é uma s
 
 Aqui está um exemplo de um objeto simples:
 
+<details>
+<summary><b>Solução em JavaScript</b></summary>
+
 ```javascript
 let pessoa = {
   nome: "João",
@@ -17,12 +20,28 @@ let pessoa = {
   altura: 1.80
 };
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+pessoa = {
+    "nome": "João",
+    "idade": 25,
+    "altura": 1.80
+}
+```
+</details>
 
 Neste exemplo, temos um objeto chamado `pessoa`, que contém três pares chave/valor. A chave é uma string, e o valor pode ser um número, uma string, ou qualquer outro tipo de dado. O objeto é delimitado por chaves `{}` e os pares chave/valor são separados por vírgula. A chave e o valor são separados por dois pontos `:`.
 
 ## Acessando propriedades 
 
 Para acessar as propriedades de um objeto, utilizamos a notação de ponto `.` ou a notação de colchetes `[]`. Veja os exemplos:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 let pessoa = {
@@ -34,10 +53,29 @@ let pessoa = {
 console.log(pessoa.nome); // João
 console.log(pessoa["idade"]); // 25
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+pessoa = {
+    "nome": "João",
+    "idade": 25,
+    "altura": 1.80
+}
+
+print(pessoa["nome"])  # João
+print(pessoa["idade"])  # 25
+```
+</details>
 
 ## Adicionando e removendo propriedades
 
 Podemos adicionar ou remover propriedades de um objeto a qualquer momento. Veja os exemplos:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 let pessoa = {
@@ -52,10 +90,32 @@ console.log(pessoa); // { nome: 'João', idade: 25, altura: 1.8, peso: 80 }
 delete pessoa.altura; // Removendo a propriedade altura
 console.log(pessoa); // { nome: 'João', idade: 25, peso: 80 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+pessoa = {
+    "nome": "João",
+    "idade": 25,
+    "altura": 1.80
+}
+
+pessoa["peso"] = 80  # Adicionando a propriedade peso
+print(pessoa)  # {'nome': 'João', 'idade': 25, 'altura': 1.8, 'peso': 80}
+
+del pessoa["altura"]  # Removendo a propriedade altura
+print(pessoa)  # {'nome': 'João', 'idade': 25, 'peso': 80}
+```
+</details>
 
 ## Iterando sobre as propriedades
 
 Podemos iterar sobre as propriedades de um objeto utilizando o laço `for...in`. Veja o exemplo:
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 let pessoa = {
@@ -68,12 +128,31 @@ for (let prop in pessoa) {
   console.log(prop + ": " + pessoa[prop]);
 }
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+pessoa = {
+    "nome": "João",
+    "idade": 25,
+    "altura": 1.80
+}
+
+for prop in pessoa:
+    print(f"{prop}: {pessoa[prop]}")
+```
+</details>
 
 Neste exemplo, a variável `prop` irá conter o nome de cada propriedade do objeto, e `pessoa[prop]` irá conter o valor correspondente. O laço irá iterar sobre todas as propriedades do objeto.
 
 ## Objetos e funções
 
 Em JavaScript, funções são objetos, e podem ser utilizadas como qualquer outro objeto. Isso significa que podemos adicionar propriedades e métodos a uma função, e podemos passá-la como argumento para outras funções, ou retorná-la como valor de uma função.
+
+<details>
+<summary><b>Solução em JavaScript</b></summary>
 
 ```javascript
 function somar(a, b) {
@@ -87,6 +166,23 @@ console.log(somar(5, 3)); // 8
 console.log(somar.nome); // Soma
 console.log(somar.descricao); // Função para somar dois números
 ```
+</details>
+
+<details>
+<summary><b>Solução em Python</b></summary>
+
+```python
+def somar(a, b):
+    return a + b
+
+somar.nome = "Soma"
+somar.descricao = "Função para somar dois números"
+
+print(somar(5, 3))  # 8
+print(somar.nome)  # Soma
+print(somar.descricao)  # Função para somar dois números
+```
+</details>
 
 Neste exemplo, a função `somar` recebeu duas propriedades: `nome` e `descricao`. Isso é possível porque funções são objetos, e objetos podem ter propriedades. Além disso, a função `somar` pode ser passada como argumento para outras funções, ou retornada como valor de uma função, como qualquer outro objeto. Isso é um conceito muito importante, por isso é necessário ter compreendido que funções são objetos, e podem ser utilizadas como qualquer outro objeto.
 
