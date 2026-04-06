@@ -129,7 +129,8 @@ O código necessário para resolver o problema descrito acima é o seguinte:
 anoNascimento = int(input("Informe o seu ano de nascimento: "))
 
 # Processamento
-mensagemFinal = "Você é Imortal!" if anoNascimento < 1900 else ("Viu o Bug do Milênio" if anoNascimento < 2000 else "Não viu o Bug do Milênio")
+mensagemFinal = "Você é Imortal!" 
+if anoNascimento < 1900 else ("Viu o Bug do Milênio" if anoNascimento < 2000 else "Não viu o Bug do Milênio")
 
 # Saída
 print(mensagemFinal)

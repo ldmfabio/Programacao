@@ -244,6 +244,7 @@ else:
     print("Você já está na terceira idade!")
 ```
 </details>
+
 > Note que no exemplo acima, a primeira condição verifica se a idade é menor que 18, ou seja, se o usuário ainda não atingiu a maioridade. Caso a idade seja menor que 18, o programa não verifica as demais condições, pois já sabe que o usuário ainda não atingiu a maioridade.
 >
 > Na segunda possibilidade, o programa analisa se a idade é menor que 60, ou seja, se o usuário já atingiu a maioridade. Caso a idade seja menor que 60, o programa não verifica a última condição, pois já sabe que o usuário já atingiu a maioridade. Não é necessário, na segunda possibilidade - _else if (idade < 60)_ - também validar se a idade é maior que 18, pois esta condição só será validada se a primeira condição for falsa, ou seja, se a idade do usuário não for menor que 18. Caso a idade seja inferior a 18 anos, o programa não verifica a próxima condição e já finaliza a estrutura de decisão, pois encontrou uma condição verdadeira.
@@ -366,6 +367,7 @@ else:
     print("Opção Inválida - Responda S-Sim, N-Não ou T-Talvez!")
 ```
 </details>
+
 > Neste exemplo, valida-se o dado informado pelo usuário, que deverá ser S, N ou T. Caso o usuário informe S, o programa informa que o usuário deve levar o guarda-chuva. Caso o usuário informe N, o programa informa que o usuário não precisa levar o guarda-chuva. Caso o usuário informe T, o programa aconselha o usuário a levar o guarda-chuva.
 >
 > Caso o usuário informe qualquer outra opção, o programa informa que a opção é inválida e solicita que o usuário informe uma das opções válidas.
